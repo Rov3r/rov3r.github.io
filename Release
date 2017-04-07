@@ -1,0 +1,8 @@
+Origin: Rov3r Public Repository
+Label: Rov3r Public Repo
+Suite: stable
+Version: 0.1
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: Great packages for a great community!
