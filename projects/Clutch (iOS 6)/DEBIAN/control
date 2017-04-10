@@ -1,0 +1,9 @@
+Package: com.rov3r.Clutch
+Name: Clutch iOS 6
+Version: 1.4.7-3
+Architecture: iphoneos-arm
+Description: A simple app cracking utility
+Homepage: http://www.jaredsiphonehelp.com/
+Maintainer: Jared Gardner (@Rov3rRepo) <all.device.help@gmail.com>
+Author: Jared Gardner (@Rov3rRepo) <all.device.help@gmail.com>
+Section: Themes
