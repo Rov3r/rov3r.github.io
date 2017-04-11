@@ -4,12 +4,13 @@ Architecture: iphoneos-arm
 Maintainer: Jared Gardner (@Rov3rRepo) <all.device.help@gmail.com>
 Depends: winterboard
 Filename: ./debs/com.rov3r.r3f1nd_0.1_iphoneos-arm.deb
-Size: 1594
-MD5sum: 5f2d584fd4ec5ec5bf68b970b7135b09
-SHA1: 051ea6f6fda4ea79c540d417139b8bb51c949816
-SHA256: f3f426c66af7854086291f9b79cb74cf79bfa873d2723705d7aa9360d1665232
+Size: 1626
+MD5sum: bd3748b790ff42ab909aafa477e91fe5
+SHA1: 5aeabc0574730bf39eb05e41979adce6296af3be
+SHA256: 32083e12867b3dc29dff850b3e55568931edeee2a428155fdc51abaef161e2bb
 Section: Themes
 Homepage: http://www.jaredsiphonehelp.com/
 Description: A simple and refined theme! (made for winterboard)
 Author: Jared Gardner (@Rov3rRepo) <all.device.help@gmail.com>
 Name: R3F1ND
+

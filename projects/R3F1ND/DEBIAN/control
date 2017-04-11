@@ -1,6 +1,6 @@
 Package: com.rov3r.R3F1ND
 Name: R3F1ND
-Depends: winterboard, OSversion=>9.92
+Depends: winterboard
 Version: 0.1
 Architecture: iphoneos-arm
 Description: A simple and refined theme! (made for winterboard)
