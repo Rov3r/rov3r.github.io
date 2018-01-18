@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC');
+/* THIS CENTER ALIGNS THE GIVEN TEXT */
+#menu-outer {
+	height: 84px;
+	background: url(images/bar-bg.jpg) repeat-x;
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ol#vertical-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	}
+	ol#vertical-list li {
+		display: inline;
+	}
+/* END CENTER ALIGNMENT */
+/* This defines the line spacing */
+#small-text {
+p.small {
+    line-height: 6px;
+}
+}
+#big-text
+p.big {
+    line-height: 30px;
+}
+/* line spacing over */
