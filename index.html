@@ -1,27 +1,6 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Home of Rov3r! - Tweaks, Projects, and More</title>
-      <style>
-        body {
-          background-image: url("background.jpg");
-        }
-      </style>
-      <style>
-        .button {
-    background-color: #008CDA;
-    border: 3px;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-      </style>
-      <link rel="apple-touch-icon-precomposed" sizes="57x57" href="images/apple-touch-icon-57x57.png" />
+<head>
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="images/apple-touch-icon-57x57.png" />
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/apple-touch-icon-114x114.png" />
 <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-icon-72x72.png" />
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/apple-touch-icon-144x144.png" />
@@ -41,61 +20,169 @@
 <meta name="msapplication-square150x150logo" content="images/mstile-150x150.png" />
 <meta name="msapplication-wide310x150logo" content="images/mstile-310x150.png" />
 <meta name="msapplication-square310x310logo" content="images/mstile-310x310.png" />
-  </head>
-  <body>
-    <font size="6">
-      <p style="text-align: center;"><b>Welcome to Rov3r Repo!</b></p>
-    </font>
-    <font size="4">
-      <p style="text-align: center;">Feel free to explore my projects, tweaks, and also add my Cydia Repo, at the touch of a button!</p>
-    </font>
-      <p style="text-align: center;">
-        <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://rov3r.github.io" class="button">Tap Here to Add My Repo</a>
-      </p>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home of Rov3r! - Tweaks, Projects, and More</title>
+<style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tableContent {
+  padding: 10px;
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+.footContent {
+  padding: 30px;
+  text-align: center;
+  color: black;
+  margin: 0;
+  font-family: Arial;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: black;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+    text-align: center;
+}
+
+.tabcontentLotsOfText {
+    color: black;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.button {
+    background-color: #008CDA;
+    border: 3px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#Home {background-image: "background.jpg";}
+#Projects {background-image: "background.jpg";}
+#CydiaRepo {background-image: "background.jpg";}
+#ContactAbout {background-image: "background.jpg";}
+#footText {background-image: "background.jpg"}
+
+</style>
 <center>
-      <h4>My Current Projects</h4>
-      <p><font size"4">- <a href="/debshow">DebShow: A Safe to Install .deb Files</a></font></p>
+  <img src="images/rov3r_wide.png" alt="Rov3r Repo"  width="40%" height="40%">
 </center>
-    <font size="2">
-      <p style="text-align: center;">© Copyright 2018 Rov3r</p>
-    </font>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <p>
-      <div id="menu-outer">
-        <div class="table">
-          <ol id="vertical-list">
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-      <i>Changelog:</i>
-    </p>
-        <ul>
-          <li>Version 0.2 - Official 2018 Redesign</li>
-          <li>Version 0.2-b - Unofficial 2018 Redesign</li>
-          <li>Version 0.1.1 - Fixed index.html, still working on landing page</li>
-          <li>Version 0.1 - Initial Release</li>
-        </ul>
-      </div>
+</head>
+<body>
+<button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">Home</button>
+<button class="tablink" onclick="openPage('Projects', this, 'green')">Projects</button>
+<button class="tablink" onclick="openPage('CydiaRepo', this, 'blue')">Cydia Repo</button>
+<button class="tablink" onclick="openPage('ContactAbout', this, 'orange')">Contact/About</button>
+
+<div id="Home" class="tabcontent">
+  <h3>
+    <font size="6">Home</p></font>
+  </h3>
+  <p>Welcome to my page! More will be added in the coming months as I continue learning and working. Click around and see all of what I've done so far.</p>
 </div>
-    </body>
+
+<div id="Projects" class="tabcontent">
+<h3>
+  <font size="6">Projects</p></font>
+</h3>
+  <center>
+    <table style="left;" class="tableContent" cellspacing="21px">
+      <tr>
+        <th><style="font-size:4;"><ins>Name</ins></font></th>
+        <th><style="font-size:4;"><ins>Description</ins></font></th>
+        <th><style="font-size:4;"><ins>Link</ins></font></th>
+        <th><style="font-size:4;"><ins>Last Updated</ins></font></th>
+      </tr>
+      <tr>
+        <td><b>DebShow</b></td>
+        <td>A safe resource for only iOS 11.0 - 11.1.2 compatible jailbreak tweaks</td>
+        <td><a href="https://rov3r.github.io/debshow" class="button">DebShow: A Safe to Install .deb Files</a></td>
+        <td>13 February 2018</td>
+      </tr>
+    </table>
+    </center>
+</div>
+
+<div id="CydiaRepo" class="tabcontent">
+  <h3>
+    <font size="6">Cydia Repo</p></font>
+  </h3>
+  <p>Simply click the button and Cydia will open!</p>
+  <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://rov3r.github.io" class="button">Tap Here to Add My Repo</a>
+</div>
+
+<div id="ContactAbout" class="tabcontentLotsOfText">
+  <h3>
+    <font size="6">Contact/About</font>
+  </h3>
+  <p style="text-align: left">I'm a 19 year old Computer Science student from Alabama, USA. I am most interested with iOS exploitation. I am studying at the University of
+    Alabama at Birmingham. I have learned some code from online resources such as codeschool and codeacademy. I continue to build my knowledge
+    and do not claim to be an amazing coder. I am just learning. I am open to new ideas and constructive criticism. If you'd like to chat, my
+    twitter is quickest way to get a response from me. If you'd prefer email. It is also listed below.
+
+    Thank you!</p>
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(pageName).style.display = "block";
+    elmnt.style.backgroundColor = color;
+
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+</body>
 <foot>
-    <p style="text-align: center;">For tutorials, news, updates, articles, etc., check out my website</p>
-      <p style="text-align: center;">
-        <a href="https://jaredsiphonehelp.weebly.com/" class="button">Jared's iPhone Help</a>
-      </p>
+  <div id="footText" class="footContent">For tutorials, news, updates, articles, etc., check out my website<br></br>
+    <a href="https://jaredsiphonehelp.weebly.com/" class="button">Jared's iPhone Help</a>
+  </div>
 </foot>
 </html>
