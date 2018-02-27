@@ -1,9 +1,0 @@
-Package: com.rov3r.clutch6
-Name: Clutch (iOS 6+)
-Depends: zip
-Version: 1.4.7-3
-Architecture: iphoneos-arm
-Description: Clutch, the fastest and most advanced cracking utility for the iPhone, iPod Touch, and iPad. Works with all devices, iOS versions, architecture types, with most binaries..
-Homepage: https://github.com/KJCracks/Clutch
-Author: ttwj <terencetanwj@gmail.com>
-Section: Tweaks

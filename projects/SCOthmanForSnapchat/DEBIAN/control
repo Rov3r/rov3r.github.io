@@ -1,0 +1,18 @@
+Name: SCOthman For Snapchat
+Package: tv.othman.scothman
+Conflicts: com.abcapps.snapplus, com.abcapps.snappluslite, com.cokepokes.phantom, com.hackyouriphone.palbreak, com.yourepo.mohadu31.nosub, com.yourepo.mohadu31.palbreakcyrepo, com.sharedroutine.skylerk99.disbreak, com.sharedroutine.skylerk99.snapbreak, com.sharedroutine.skylerk99.mlbreak, com.hackyouriphone.xconxx, com.repo.xarold.com.xconxx, com.n00neimp0rtant.xconxx, com.yourepo.mohadu31.xconxxx, com.yourepo.mohadu31.xconxxforios9, com.yourepo.goldcydia.xconxx, net.cydia00.xcon, com.ithegentle.phloader, com.yourepo.mohadu31.phloader, net.cydia00.phloader, com.yourepo.mohadu31.phantomcrack, com.yourepo.goldcydia.phantomcrack, net.cydia00.phantomcrack, com.ithegentle.adsremoval
+Priority: optional
+Depends: mobilesubstrate, firmware (>= 7.0)
+Version: 12.6-4
+Architecture: iphoneos-arm
+Description: Adds features to the Snapchat app
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=scothmanforsnapchatDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=scothmanforsnapchatDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Othman Alomiry <oooom24@gmail.com>
+Section: Tweaks
+Tag: purpose::extension, compatible::ios9, compatible::ios10
+Installed-Size: 9114
+dev: othman
+Icon: file:///Library/Application%20Support/SnapOthman/SCOthmanResources.bundle/SCOthmanIcon.png
