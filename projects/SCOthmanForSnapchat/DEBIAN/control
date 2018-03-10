@@ -8,8 +8,8 @@ Architecture: iphoneos-arm
 Description: Adds features to the Snapchat app
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=scothmanforsnapchatDp
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=scothmanforsnapchatDp
-Sponsor: thebigboss.org <http://thebigboss.org>
-Maintainer: BigBoss <bigboss@thebigboss.org>
+Sponsor: rov3rrepo <https://rov3r.github.io>
+Maintainer: Rov3r <jaredsiphonehelp@gmail.com>
 Author: Othman Alomiry <oooom24@gmail.com>
 Section: Tweaks
 Tag: purpose::extension, compatible::ios9, compatible::ios10, compatible::ios11
