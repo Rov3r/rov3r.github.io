@@ -12,7 +12,7 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Author: Othman Alomiry <oooom24@gmail.com>
 Section: Tweaks
-Tag: purpose::extension, compatible::ios9, compatible::ios10
+Tag: purpose::extension, compatible::ios9, compatible::ios10, compatible::ios11
 Installed-Size: 9114
 dev: othman
 Icon: file:///Library/Application%20Support/SnapOthman/SCOthmanResources.bundle/SCOthmanIcon.png
