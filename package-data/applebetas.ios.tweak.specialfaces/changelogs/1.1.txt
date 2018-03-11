@@ -1,0 +1,1 @@
+Fixes an issue where faces would be removed if edited on the Watch while the Watch Settings app was open. (Thanks, /u/MakeJBGreatAgain on Reddit)

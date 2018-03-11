@@ -1,0 +1,2 @@
+Fixes an issue where songs would all appear as unplayable if disconnected from Wi-Fi with Cellular Data for the Music app enabled
+Adds play buttons to Recently Added items

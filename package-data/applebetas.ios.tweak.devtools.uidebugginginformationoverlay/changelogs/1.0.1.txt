@@ -1,0 +1,1 @@
+Fixes an issue where some older apps would crash. This view is now disabled in them.

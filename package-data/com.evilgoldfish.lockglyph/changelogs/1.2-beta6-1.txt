@@ -1,0 +1,2 @@
+"Use faster animation" re-enabled
+Fix for non-10.2 animations

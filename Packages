@@ -1,0 +1,37 @@
+Package: com.rov3r.R3F1ND
+Version: 0.1
+Architecture: iphoneos-arm
+Maintainer: Jared Gardner (@Rov3rRepo) <all.device.help@gmail.com>
+Depends: winterboard
+Filename: ./debs/com.rov3r.r3f1nd_0.1_iphoneos-arm.deb
+Size: 1626
+MD5sum: bd3748b790ff42ab909aafa477e91fe5
+SHA1: 5aeabc0574730bf39eb05e41979adce6296af3be
+SHA256: 32083e12867b3dc29dff850b3e55568931edeee2a428155fdc51abaef161e2bb
+Section: Themes
+Homepage: http://www.jaredsiphonehelp.com/
+Description: A simple and refined theme! (made for winterboard)
+Author: Jared Gardner (@Rov3rRepo) <all.device.help@gmail.com>
+Name: R3F1ND
+
+Name: SCOthman For Snapchat
+Package: com.rov3r.scothman
+Conflicts: com.abcapps.snapplus, com.abcapps.snappluslite, com.cokepokes.phantom, com.hackyouriphone.palbreak, com.yourepo.mohadu31.nosub, com.yourepo.mohadu31.palbreakcyrepo, com.sharedroutine.skylerk99.disbreak, com.sharedroutine.skylerk99.snapbreak, com.sharedroutine.skylerk99.mlbreak, com.hackyouriphone.xconxx, com.repo.xarold.com.xconxx, com.n00neimp0rtant.xconxx, com.yourepo.mohadu31.xconxxx, com.yourepo.mohadu31.xconxxforios9, com.yourepo.goldcydia.xconxx, net.cydia00.xcon, com.ithegentle.phloader, com.yourepo.mohadu31.phloader, net.cydia00.phloader, com.yourepo.mohadu31.phantomcrack, com.yourepo.goldcydia.phantomcrack, net.cydia00.phantomcrack, com.ithegentle.adsremoval
+Priority: optional
+Depends: mobilesubstrate, firmware (>= 7.0)
+Version: 12.6-4
+Architecture: iphoneos-arm
+Filename: ./debs/tv.othman.scothman_12.6-4.deb
+Description: Adds features to the Snapchat app
+Homepage: http://www.jaredsiphonehelp.com/
+Sponsor: Rov3rRepo <all.device.help@gmail.com>
+Maintainer: Rov3rRepo <all.device.help@gmail.com>
+Author: Othman Alomiry <oooom24@gmail.com>
+MD5sum: c696d038c58b0504ad805d2360075c82
+SHA1: 765529b31e21ef9aa299aea3b1816f72f8150276
+SHA256: 83a0f7038f37513e241089095d7b7dd0449fb58f9ec245d2adc2df34279960f2
+Section: Tweaks
+Tag: purpose::extension, compatible::ios9, compatible::ios10
+Installed-Size: 9114
+dev: othman
+Icon: file:///Library/Application%20Support/SnapOthman/SCOthmanResources.bundle/SCOthmanIcon.png

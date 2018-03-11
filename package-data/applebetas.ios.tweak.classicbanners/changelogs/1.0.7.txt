@@ -1,0 +1,1 @@
+Apps with multiple configurations for notification settings (such as stock Mail) are now treated properly

@@ -1,0 +1,2 @@
+Fixes an issue where non-modal banners could sometimes expand without interaction
+Slightly improved sound handling

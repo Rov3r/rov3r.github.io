@@ -1,0 +1,2 @@
+Allow custom themes to be chosen
+Fix "Unlock immediately" not activating check properly

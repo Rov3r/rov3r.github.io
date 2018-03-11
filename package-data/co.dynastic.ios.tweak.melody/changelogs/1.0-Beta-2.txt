@@ -1,0 +1,6 @@
+The app now opens to the My Music tab if it detects you have no network
+"Show Apple Music" no longer requires an app restart to take effect
+Songs now become disabled when they cannot be played (due to being explicit with restrictions, Apple Music DRM with an expired subscription, or a lack of network connection required for streaming)
+Songs that cannot be played now popup an informative message when tapped
+Fixed an issue where the "Added to Playlist" popup would have no icon
+Search results from Apple Music now open properly when tapped
