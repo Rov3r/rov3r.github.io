@@ -1,3 +1,0 @@
-Even better on battery life
-Compatibility with all iOS versions from iOS 7-10
-Fixes a bug where the text may not be set immediately on wake if used with some other tweaks

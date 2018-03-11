@@ -1,2 +1,0 @@
-Notification titles now act like iOS 10 banners if requested
-Better handling of system event notifications

@@ -1,1 +1,0 @@
-Fixes an issue where scrolling would not work if not over a message bubble in the conversation view

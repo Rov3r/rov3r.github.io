@@ -1,1 +1,0 @@
-Fixes is/are for singular day count

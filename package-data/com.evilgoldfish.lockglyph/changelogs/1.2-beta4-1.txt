@@ -1,2 +1,0 @@
-Option to fade out upon recognition
-Option to keep "Press home to unlock" text

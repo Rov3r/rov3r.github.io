@@ -1,1 +1,0 @@
-FLEX is now available while the device is locked

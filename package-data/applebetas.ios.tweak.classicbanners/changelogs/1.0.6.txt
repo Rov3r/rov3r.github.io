@@ -1,1 +1,0 @@
-Don't show banners if they are disabled for notification's app
