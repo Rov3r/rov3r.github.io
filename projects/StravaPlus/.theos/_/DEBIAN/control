@@ -1,0 +1,10 @@
+Package: com.rov3r.stravaplus
+Name: StravaPlus
+Author: Rov3r
+Description: Premium features on Strava Ride v36.0.0 (14 March 2018)
+Depends: mobilesubstrate
+Maintainer: Rov3r <jaredsiphonehelp@gmail.com>
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 0.1
+Installed-Size: 120
