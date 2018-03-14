@@ -1,0 +1,9 @@
+Package: com.rov3r.StravaPlus
+Name: StravaPlus
+Author: Rov3r
+Description:
+Depends: mobilesubstrate
+Maintainer: Rov3r <jaredsiphonehelp@gmail.com>
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 0.1
