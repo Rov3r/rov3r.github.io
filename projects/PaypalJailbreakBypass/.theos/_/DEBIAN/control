@@ -1,0 +1,10 @@
+Package: com.rov3r.electrajbbypass
+Name: Bypass PayPal JB Detection
+Author: RealMrK
+Description: Bypasses Electra Jailbreak Detection.
+Depends: mobilesubstrate
+Maintainer: Rov3r <jaredsiphonehelp@gmail.com>
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 1.0
+Installed-Size: 120

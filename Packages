@@ -14,6 +14,22 @@ Description: A simple and refined theme! (made for winterboard)
 Author: Jared Gardner (@Rov3rRepo) <all.device.help@gmail.com>
 Name: R3F1ND
 
+Package: com.rov3r.electrajbbypass
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Rov3r <jaredsiphonehelp@gmail.com>
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: deb/com.rov3r.electrajbbypass_1.0_iphoneos-arm.deb
+Size: 2726
+MD5sum: 1d245c1491de885d0d27b95d9f555f7e
+SHA1: a9a7716dad7638acd1ba3fb7c842229d05bedc8b
+SHA256: 44865977e86bf9e04133c4a9c72a6f040e241a6628b6fb64a7fa11d2731ebd12
+Section: Tweaks
+Description: Bypasses Electra Jailbreak Detection.
+Author: RealMrK
+Name: Bypass PayPal JB Detection
+
 Package: com.rov3r.stravaplus
 Version: 0.1
 Architecture: iphoneos-arm
