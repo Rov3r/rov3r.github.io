@@ -1,3 +1,19 @@
+Package: com.duckyz.tumblrtosafari
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Rov3r <jaredsiphonehelp@gmail.com>
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: deb/com.duckyz.tumblrtosafari_1.0_iphoneos-arm.deb
+Size: 2726
+MD5sum: 4a9abc86d675a778bacfa270c2b2d621
+SHA1: ea3166978a335cba5ed0e16b922e3c569ddcb1f0
+SHA256: 6b47bf3509a38b43dbed1cddbf97d66630a442489a75385c7b37d78d58a2d1f2
+Section: Tweaks
+Description: Disables SafariViewService in Tumblr which will allows you to open links in Safari instead of the in-app browser. This tweak also prevents SafariViewService from constantly crashing.
+Author: Duckyz
+Name: TumblrToSafari
+
 Package: com.rov3r.R3F1ND
 Version: 0.1
 Architecture: iphoneos-arm
@@ -45,4 +61,20 @@ Section: Tweaks
 Description: Premium features on Strava Ride v36.0.0 (14 March 2018)
 Author: Rov3r
 Name: StravaPlus
+
+Package: com.zidapi.disableios11sspreview
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Rov3r <jaredsiphonehelp@gmail.com>
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: deb/com.zidapi.disableios11sspreview_1.0_iphoneos-arm.deb
+Size: 2614
+MD5sum: 53d95422e3a4242b9340cdb899cbbf45
+SHA1: f27ed001eff042094a7554e07f11cda5ea15ce44
+SHA256: 4acbd06162253a040a1bd86827c97a33cf4388d97c487362788ed7c45b1cc5ba
+Section: Tweaks
+Description: Disables the Preview and Flash Effect when taking screenshots. Credit goes to u/p0wer0n for pointing me in the right direction.
+Author: zidapi
+Name: Disable iOS 11 Screenshot Preview & Flash
 
