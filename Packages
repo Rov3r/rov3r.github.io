@@ -14,22 +14,6 @@ Description: Disables SafariViewService in Tumblr which will allows you to open 
 Author: Duckyz
 Name: TumblrToSafari
 
-Package: com.rov3r.R3F1ND
-Version: 0.1
-Architecture: iphoneos-arm
-Maintainer: Jared Gardner (@Rov3rRepo) <all.device.help@gmail.com>
-Depends: winterboard
-Filename: deb/com.rov3r.r3f1nd_0.1_iphoneos-arm.deb
-Size: 1626
-MD5sum: dcadc98515b0bb5151bb900ce0fced8f
-SHA1: 0797dac7d73484de6216476bdbda2c50165f7722
-SHA256: c4fa523b1e44c40096a1a061bb06c952c330f7db01cc82a6d5b085d28d201370
-Section: Themes
-Homepage: http://www.jaredsiphonehelp.com/
-Description: A simple and refined theme! (made for winterboard)
-Author: Jared Gardner (@Rov3rRepo) <all.device.help@gmail.com>
-Name: R3F1ND
-
 Package: com.rov3r.electrajbbypass
 Version: 1.0
 Architecture: iphoneos-arm
