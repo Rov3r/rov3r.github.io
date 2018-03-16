@@ -14,6 +14,22 @@ Description: Disables SafariViewService in Tumblr which will allows you to open 
 Author: Duckyz
 Name: TumblrToSafari
 
+Package: com.rov3r.betternetplusplus
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Rov3r <jaredsiphonehelp@gmail.com>
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: deb/com.rov3r.betternetplusplus_1.0_iphoneos-arm.deb
+Size: 3114
+MD5sum: 546e8d3f293a816b80def812a9bb58de
+SHA1: 6a81d53269816ed54b6bdc708bc7370e696623cc
+SHA256: fc9ad59be6548bff65629d133c20e3c0505f38967a4b77c6a01039ab32ea77a0
+Section: Tweaks
+Description: Premium Betternet (The ads are very intrusive and they're careless with your information. Use Betternet VPN sparingly. See more here: https://restoreprivacy.com/betternet-review/)
+Author: Rov3r
+Name: Betternet++
+
 Package: com.rov3r.electrajbbypass
 Version: 1.0
 Architecture: iphoneos-arm
