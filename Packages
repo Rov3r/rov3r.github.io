@@ -63,18 +63,18 @@ Author: Rov3r
 Name: StravaPlus
 
 Package: com.zidapi.disableios11sspreview
-Version: 1.0
+Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: Rov3r <jaredsiphonehelp@gmail.com>
 Installed-Size: 120
 Depends: mobilesubstrate
-Filename: deb/com.zidapi.disableios11sspreview_1.0_iphoneos-arm.deb
-Size: 2614
-MD5sum: 53d95422e3a4242b9340cdb899cbbf45
-SHA1: f27ed001eff042094a7554e07f11cda5ea15ce44
-SHA256: 4acbd06162253a040a1bd86827c97a33cf4388d97c487362788ed7c45b1cc5ba
+Filename: deb/com.zidapi.disableios11sspreview_1.1_iphoneos-arm.deb
+Size: 2610
+MD5sum: ef70da6b809ef06db31fa28ae5b81ad7
+SHA1: ad1da0ecbc851a02aa535edc484f9622c710c935
+SHA256: 023c712ee301cbea596fef8156b716986ccc10de46c523042454811d048e77bc
 Section: Tweaks
 Description: Disables the Preview and Flash Effect when taking screenshots. Credit goes to u/p0wer0n for pointing me in the right direction.
 Author: zidapi
-Name: Disable iOS 11 Screenshot Preview & Flash
+Name: NoScreenShot11
 
