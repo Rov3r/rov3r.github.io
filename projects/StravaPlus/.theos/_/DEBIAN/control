@@ -6,5 +6,6 @@ Depends: mobilesubstrate
 Maintainer: Rov3r <jaredsiphonehelp@gmail.com>
 Architecture: iphoneos-arm
 Section: Tweaks
-Version: 0.1-1
+Icon: file:///projects/StravaPlus/Icon.png
+Version: 0.1-2
 Installed-Size: 120

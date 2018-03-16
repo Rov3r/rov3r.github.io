@@ -47,19 +47,20 @@ Author: RealMrK
 Name: Bypass PayPal JB Detection
 
 Package: com.rov3r.stravaplus
-Version: 0.1-1
+Version: 0.1-2
 Architecture: iphoneos-arm
 Maintainer: Rov3r <jaredsiphonehelp@gmail.com>
 Installed-Size: 120
 Depends: mobilesubstrate
-Filename: deb/com.rov3r.stravaplus_0.1-1_iphoneos-arm.deb
-Size: 3148
-MD5sum: 640fe2f6659e11ae3f525b0a5762a767
-SHA1: a421e837cfd3f09bbd9c30c833cbd4b5ffb7b547
-SHA256: 18aa2fa9d7f8d780cf095189e6e76100dcb5c2a14c661a6aef1e7b2e8947f941
+Filename: deb/com.rov3r.stravaplus_0.1-2_iphoneos-arm.deb
+Size: 3172
+MD5sum: 3c10b89d10d6a1735e313ab6d6127ec7
+SHA1: f2d9822400cd19403fbf7b42b82514e7ca38168e
+SHA256: ff3f24f8f31bdf6188be0f399aa7b033c3d8294778ec68a85e373a85935b4a4d
 Section: Tweaks
 Description: Premium features on Strava Ride v37.0.0 (16 March 2018)
 Author: Rov3r
+Icon: file:///projects/StravaPlus/Icon.png
 Name: StravaPlus
 
 Package: com.zidapi.disableios11sspreview
