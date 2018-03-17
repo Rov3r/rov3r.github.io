@@ -1,10 +1,10 @@
 Package: com.rov3r.tumblrplusplus
 Name: Tumblr ++
 Author: Rov3r
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=scothmanforsnapchatDp
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=scothmanforsnapchatDp
+Homepage: https://rov3r.github.io/rov3r.com_files/tumblr++/tumblr++.html
+Depiction: https://rov3r.github.io/rov3r.com_files/tumblr++/tumblr++.html
 Depends: mobilesubstrate
 Maintainer: Rov3r <jaredsiphonehelp@gmail.com>
 Architecture: iphoneos-arm
 Section: Tweaks
-Version: 1.1-2
+Version: 1.1-3
