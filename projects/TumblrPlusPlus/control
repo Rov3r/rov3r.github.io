@@ -1,20 +1,10 @@
 Package: com.rov3r.tumblrplusplus
 Name: Tumblr ++
 Author: Rov3r
-Description: Changelog:
- 
-- Disables Auto-Play on Cellular
- 
-- Disables Jailbreak Detection
-
-- Enables Uncompressed Images (Higher Quality Images)
- 
- 
- My Twitter - https://twitter.com/Rov3rRepo
- 
-
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=scothmanforsnapchatDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=scothmanforsnapchatDp
 Depends: mobilesubstrate
 Maintainer: Rov3r <jaredsiphonehelp@gmail.com>
 Architecture: iphoneos-arm
 Section: Tweaks
-Version: 1.1
+Version: 1.1-2

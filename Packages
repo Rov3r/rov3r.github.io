@@ -64,13 +64,20 @@ Icon: file:///projects/StravaPlus/Icon.png
 Name: StravaPlus
 
 Package: com.rov3r.tumblrplusplus
-Filename: deb/com.rov3r.tumblrplusplus_1.1_iphoneos-arm.deb
-Size: 3354
-MD5sum: 481a0c06f4b0352454a950d3c1bcf39a
-SHA1: ec02bcf9bec9671ad91b67f1c1e564c579dc956c
-SHA256: fe37bd7799671c10ef8a2c08b9478c17cf360877d871e0feca64eb34e94cbbc2
-Description: Changelog:
+Version: 1.1-2
+Architecture: iphoneos-arm
+Maintainer: Rov3r <jaredsiphonehelp@gmail.com>
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: deb/com.rov3r.tumblrplusplus_1.1-2_iphoneos-arm.deb
+Size: 3294
+MD5sum: 1a8a3408846ee29d3ddef2b51dadfc16
+SHA1: c853d1e4e1f4bfca6458a2c5476e561c8f0cc3d7
+SHA256: acf61324ff35ded20a64a785015ee5a1cdf17d7812a3e30f5023692df6cf9950
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=scothmanforsnapchatDp
 Author: Rov3r
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=scothmanforsnapchatDp
 Name: Tumblr ++
 
 Package: com.zidapi.disableios11sspreview
