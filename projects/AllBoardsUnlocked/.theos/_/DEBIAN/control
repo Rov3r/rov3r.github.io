@@ -1,0 +1,10 @@
+Package: com.rov3r.allboardsunlocked
+Name: TouchgrindUnlocked (by Rov3r)
+Author: Rov3r
+Description: Unlock all Touchgrind (Original) Boards
+Depends: mobilesubstrate
+Maintainer: Rov3r <jaredsiphonehelp@gmail.com>
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 1.0
+Installed-Size: 120

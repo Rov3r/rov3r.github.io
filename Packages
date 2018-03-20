@@ -14,6 +14,22 @@ Description: Disables SafariViewService in Tumblr which will allows you to open 
 Author: Duckyz
 Name: TumblrToSafari
 
+Package: com.rov3r.allboardsunlocked
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Rov3r <jaredsiphonehelp@gmail.com>
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: deb/com.rov3r.allboardsunlocked_1.0_iphoneos-arm.deb
+Size: 2762
+MD5sum: 00830e243506ec18dc82b229448ac0ce
+SHA1: 9a8925f11c0b20f91e40e8c3e93ce2771e48a84a
+SHA256: b6d0cb19e99782e8c86b8af8459a284ce85604e2263fadccb7bad5321ec46d9b
+Section: Tweaks
+Description: Unlock all Touchgrind (Original) Boards
+Author: Rov3r
+Name: TouchgrindUnlocked (by Rov3r)
+
 Package: com.rov3r.betternetplusplus
 Version: 1.0
 Architecture: iphoneos-arm
