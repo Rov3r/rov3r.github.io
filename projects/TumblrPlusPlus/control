@@ -1,10 +1,11 @@
 Package: com.rov3r.tumblrplusplus
 Name: Tumblr ++
 Author: Rov3r
+Description: Add more to Tumblr!
 Homepage: https://rov3r.github.io/rov3r.com_files/tumblr++/tumblr++.html
 Depiction: https://rov3r.github.io/rov3r.com_files/tumblr++/tumblr++.html
 Depends: mobilesubstrate
 Maintainer: Rov3r <jaredsiphonehelp@gmail.com>
 Architecture: iphoneos-arm
 Section: Tweaks
-Version: 1.1-3
+Version: 1.2
