@@ -64,6 +64,21 @@ Description: Bypasses Electra Jailbreak Detection.
 Author: RealMrK
 Name: Bypass PayPal JB Detection
 
+Package: com.rov3r.nomirror11fft
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Rov3r <jaredsiphonehelp@gmail.com>
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: deb/com.rov3r.nomirror11fft_1.0_iphoneos-arm.deb
+Size: 2514
+MD5sum: d159c5cdf240401071583555535dd921
+SHA1: 61bd8fed1d224ea648aeb7e87f7e3fbce509c770
+SHA256: 5198f2c32d00630067529af22ddf041979ffb88cde7267715abbd1ed1933397e
+Section: Tweaks
+Author: Rov3r
+Name: NoMirror11 for FaceTime
+
 Package: com.rov3r.stravaplus
 Version: 0.1-2
 Architecture: iphoneos-arm

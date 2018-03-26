@@ -1,0 +1,10 @@
+Package: com.rov3r.nomirror11fft
+Name: NoMirror11 for FaceTime
+Author: Rov3r
+Description:
+Depends: mobilesubstrate
+Maintainer: Rov3r <jaredsiphonehelp@gmail.com>
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 1.0
+Installed-Size: 120
