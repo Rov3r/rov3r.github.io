@@ -1,0 +1,152 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Tweak Information</title>
+
+	<base href="." target="_blank">
+
+	<link rel="stylesheet" type="text/css" href="./resources/newstyle.css">
+	<meta name="description" content="A page about iPhone Software.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+
+
+	<script type="text/javascript">
+		Window.prototype.alert=function(){};
+	</script><style></style>
+
+
+	<script type="text/javascript">
+	function moveChildren(src, dest) {
+		one = document.getElementById(src);
+		two = document.getElementById(dest);
+		while (one.hasChildNodes())
+	    	two.appendChild(one.childNodes[0]);
+	}
+	</script>
+
+
+<script type="text/javascript">
+(function() {
+     var update = function() {
+         if (window.parent != window)
+             parent.postMessage({cytyle: {name: "iframe-y", value: document.body.scrollHeight}}, "*");
+     };
+     window.addEventListener('message', function(event) {
+         var message = event.data.cytyle;
+         if (message == undefined)
+             return;
+         switch (message.name) {
+             case "iframe-y":
+                 var height = message.value;
+                 var iframes = document.getElementsByTagName("iframe");
+                 if (iframes.length != 1)
+                     return;
+                 var iframe = iframes.item(0);
+                 iframe.style.height = height + 'px';
+                 update();
+             break;
+         }
+     }, false);
+     window.addEventListener('DOMContentLoaded', update, false);
+ })();
+</script>
+</head>
+
+<body>
+
+<panel>
+	<fieldset style="clear:both" id="description">
+	<label>Description</label>
+
+		<div>
+
+Make FaceTime better!<br>
+<br>
+<center>*** May or may not work on other iOS versions! ***</center><br>
+Features:<br>
+* Disable Live Video Feed upon application launch<br>
+* Live Video beings upon beginning or answering a FaceTime<br><br><br><br>
+<center>
+	-> iOS 11 is Officially Supported <-
+</center>
+<br>
+<br>
+<!-- copy all of this to make a new row -->
+
+<div style="text-align:center"><a style="display:block; color:inherit !important;" href="https://rov3r.github.io/" target="_new"><a style="display:block; color:inherit !important;" href="https://rov3r.github.io/" target="_new">
+<img width="132" height="234" src="./resources/screenshot1.PNG">
+<img width="132" height="234" src="./resources/screenshot2.PNG">
+</a></a></div>
+
+<!-- basically I can just copy all of that and make another row. -->
+
+</div>
+	</fieldset>
+
+
+</panel>
+
+<script type="text/javascript">
+ MakeImgLinks();
+</script>
+<panel>
+
+	<fieldset style="clear:both">
+		<label>What's New</label>
+		<div>
+
+New:<br>
+* Updated Cydia Page
+<br>
+<br>
+New:<br>
+* Tweak Created<br>
+
+
+		</div>
+	</fieldset>
+
+
+
+</panel>
+
+
+
+
+<panel>
+
+	<fieldset style="clear:both">
+		<label>Information</label>
+		<div>
+		<table class="information" cols="2" border="0">
+		<tbody><tr>
+			<td class="key">Updated</td>
+			<td class="detail">March 26, 2018</td>
+		</tr>
+
+		<tr>
+			<td class="key">License</td>
+			<td class="detail">Free Package</td>
+		</tr>
+
+
+
+		</tbody></table>
+		</div>
+	</fieldset>
+
+
+	<fieldset style="clear:both">
+		<a class="button" href="https://rov3r.github.io">Developer Packages</a>
+	</fieldset>
+
+
+
+</panel>
+
+<panel>
+	<fieldset style="clear:both">
+		<a class="button" href="https://twitter.com/Rov3rRepo">Follow @Rov3rRepo on Twitter</a>
+	</fieldset>
+</panel>
+
+
+</body></html>
