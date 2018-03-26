@@ -65,20 +65,21 @@ Author: RealMrK
 Name: Bypass PayPal JB Detection
 
 Package: com.rov3r.nomirror11fft
-Version: 1.1
+Version: 1.1-1
 Architecture: iphoneos-arm
 Maintainer: Rov3r <jaredsiphonehelp@gmail.com>
 Installed-Size: 120
 Depends: mobilesubstrate
-Filename: deb/com.rov3r.nomirror11fft_1.1_iphoneos-arm.deb
-Size: 2570
-MD5sum: 38cd148bd1bb68db5c10587d324e3116
-SHA1: faf97afb5aca3ce006502f629f6d467ab69e5ae5
-SHA256: c05362910e7353ceeee94a2bf45624ca5de28708f712f414c80299d9c668da81
+Filename: deb/com.rov3r.nomirror11fft_1.1-1_iphoneos-arm.deb
+Size: 2576
+MD5sum: e2fed6d113740e7be2e475c381d79712
+SHA1: f31c5d8079c8cca9d4bdd38847c38d06ab2238fc
+SHA256: 9fa08d874730f1373b6bb346e07947464a64e5579412eaf9cc91b89775f90a3b
 Section: Tweaks
 Homepage: https://rov3r.github.io/rov3r.com_files/nomirror11/tweak.html
 Description: Disable FaceTime Live Feed
 Author: Rov3r
+Depiction: https://rov3r.github.io/rov3r.com_files/nomirror11/tweak.html
 Name: NoMirror11 for FaceTime
 
 Package: com.rov3r.stravaplus
