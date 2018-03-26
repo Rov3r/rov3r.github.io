@@ -3,9 +3,10 @@ Name: NoMirror11 for FaceTime
 Author: Rov3r
 Description: Disable FaceTime Live Feed
 Homepage: https://rov3r.github.io/rov3r.com_files/nomirror11/tweak.html
+Depiction: https://rov3r.github.io/rov3r.com_files/nomirror11/tweak.html
 Depends: mobilesubstrate
 Maintainer: Rov3r <jaredsiphonehelp@gmail.com>
 Architecture: iphoneos-arm
 Section: Tweaks
-Version: 1.1
+Version: 1.1-1
 Installed-Size: 120
