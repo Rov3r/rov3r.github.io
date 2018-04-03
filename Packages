@@ -117,6 +117,21 @@ Author: Rov3r
 Depiction: https://rov3r.github.io/rov3r.com_files/tumblr++/tumblr++.html
 Name: Tumblr ++
 
+Package: com.yourepo.rov3r.dockxiforios891011
+Version: 1.1.0
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 8.0), preferenceloader
+Conflicts: com.xcxiao.dockxi
+Filename: deb/com.rov3r.dockxi_1.1.0.deb
+Size: 26128
+MD5sum: 8876e09906a483b5c348a4bdd59c397e
+SHA1: 4543e84bca00a76b4d2d576a568fbfae71c4f708
+SHA256: 8d0098bec225b1c8f35c14fc415fce0f497a10b48ea908be6afb60fd55f9550f
+Section: Tweaks
+Description: iOS 11 Dock Style For iOS Devices. (The only difference between this and the one on BigBoss is this one actually has less bugs.)
+Author: XCXiao <958169971@qq.com>
+Name: DockXI For iOS8/9/10/11
+
 Package: com.zidapi.disableios11sspreview
 Version: 1.1
 Architecture: iphoneos-arm
