@@ -132,6 +132,20 @@ Description: iOS 11 Dock Style For iOS Devices. (The only difference between thi
 Author: XCXiao <958169971@qq.com>
 Name: DockXI For iOS8/9/10/11
 
+Package: com.yourepo.rov3r.supporttheunsupported
+Version: 1.1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: deb/com.yourepo.rov3r.supporttheunsupported_1.1.deb
+Size: 3318
+MD5sum: e99182ca9b7cd750a1878d9b6d17f537
+SHA1: 174f763f7046823b75e7552aa2e3508819ce2bf9
+SHA256: 35b213d8cedfa495325b497b31fa0ad67969d87add40c3ab0cc1078837112f1a
+Section: System
+Description: Allows iPhones to use “unsupported” accessories. Works on iOS 7 - 11.
+Author: Tony Kraft <rov3r@icloud.com>
+Name: SupportTheUnsupported
+
 Package: com.zidapi.disableios11sspreview
 Version: 1.1
 Architecture: iphoneos-arm
