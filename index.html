@@ -22,7 +22,34 @@
 <meta name="msapplication-square310x310logo" content="images/mstile-310x310.png" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Rov3r Repo - Tweaks, Projects, and more</title>
+
 <style>
+
+@font-face {
+  font-family: OregonLDO;
+  src: url('rov3r.com_files/fonts/OregonLDO.ttf');
+}
+
+@font-face {
+  font-family: Steinerlight;
+  src: url('rov3r.com_files/fonts/Steinerlight.ttf');
+}
+
+@font-face {
+  font-family: FallingSky;
+  src: url('rov3r.com_files/fonts/FallingSky.otf');
+}
+
+@font-face {
+  font-family: QuicksandBookItalic;
+  src: url('rov3r.com_files/fonts/Quicksand Book Oblique.otf');
+}
+
+@font-face {
+  font-family: QuicksandBook;
+  src: url('rov3r.com_files/fonts/Quicksand Book.otf');
+}
+
 * {box-sizing: border-box}
 
 head, html {
@@ -46,19 +73,20 @@ body, html {
     cursor: pointer;
     padding: 14px 16px;
     font-size: 17px;
+    font-family: FallingSky;
     width: 25%;
 }
 
 .tableContent {
-  font-family: Arial;
+  font-family: QuicksandBookItalic;
 }
 
 .footContent {
-  padding: 30px;
+  padding: 50px;
   text-align: center;
   color: black;
   margin: 0;
-  font-family: Arial;
+  font-family: Quicksand;
 }
 
 .tablink:hover {
@@ -71,6 +99,9 @@ body, html {
     display: none;
     padding: 100px 20px;
     height: 100%;
+    word-wrap: break-word;
+    width: 80%;
+    font-family: Quicksand;
     text-align: center;
     line-height: 200%;
 }
@@ -97,6 +128,7 @@ head {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    font-family: OregonLDO;
     margin: 4px 2px;
     cursor: pointer;
 }
@@ -117,10 +149,10 @@ head {
 <button class="tablink" onclick="openPage('Projects', this, 'green')">Projects</button>
 <button class="tablink" onclick="openPage('CydiaRepo', this, 'blue')">Cydia Repo</button>
 <button class="tablink" onclick="openPage('ContactAbout', this, 'orange')">Contact/About</button>
-
+<center>
 <div id="Home" class="tabcontent">
   <h3>
-    <font size="6">Home</p></font>
+    <font size="6"> Home</p></font>
   </h3>
   <p>Welcome to my page! More will be added in the coming months as I continue learning and working. Click around and see all of what I've done so far.</p>
 </div>
@@ -130,7 +162,7 @@ head {
   <font size="6">Projects</p></font>
 </h3>
   <center>
-    <table style="left;" class="tableContent" cellspacing="21px">
+    <table style="left"; class="tableContent"; cellspacing="21px"; width=100%;>
       <tr>
         <th><style="font-size:4;"><ins>Name</ins></font></th>
         <th><style="font-size:4;"><ins>Description</ins></font></th>
@@ -139,9 +171,15 @@ head {
       </tr>
       <tr>
         <td><b>DebShow</b></td>
-        <td>A safe resource for only iOS 11.0 - 11.1.2 compatible jailbreak tweaks</td>
+        <td>A safe resource for only iOS 11.0 - 11.1.2 compatible jailbreak tweaks - (Discontinued February 2018)</td>
         <td><a href="https://rov3r.github.io/debshow" class="button">DebShow: A Safe to Install .deb Files</a></td>
         <td>13 February 2018</td>
+      </tr>
+      <tr>
+        <td><b>Xist</b></td>
+        <td>T.B.A.</td>
+        <td><a href="https://rov3r.github.io/Xist" class="button">Xist GitHub</a></td>
+        <td>14 April 2018</td>
       </tr>
     </table>
     </center>
@@ -159,14 +197,13 @@ head {
   <h3>
     <font size="6">Contact/About</font>
   </h3>
-  <p style="text-align: left">I'm a 19 year old Computer Science student from Alabama, USA. I am most interested with iOS exploitation. I am studying at the University of
+  <p style="text-align: left; font-family: QuicksandBook;">I'm a 19 year old Computer Science student from Alabama, USA. I am most interested with iOS exploitation. I am studying at the University of
     Alabama at Birmingham. I have learned some code from online resources such as codeschool and codeacademy. I continue to build my knowledge
     and do not claim to be an amazing coder. I am just learning. I am open to new ideas and constructive criticism. If you'd like to chat, my
     twitter is quickest way to get a response from me. If you'd prefer email. It is also listed below.
 
     Thank you!</p>
 </div>
-
 <script>
 function openPage(pageName,elmnt,color) {
     var i, tabcontent, tablinks;
@@ -185,8 +222,18 @@ function openPage(pageName,elmnt,color) {
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
 </script>
+</center>
 </body>
 <foot>
+  <br></br>
+  <br></br>
+  <br></br>
+  <br></br>
+  <br></br>
+  <br></br>
+  <br></br>
+  <br></br>
+  <br></br>
   <div id="footText" class="footContent">For tutorials, news, updates, articles, etc., check out my website<br></br>
     <a href="https://jaredsiphonehelp.weebly.com/" class="button">Jared's iPhone Help</a>
   </div>
