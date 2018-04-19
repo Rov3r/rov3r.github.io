@@ -1,0 +1,9 @@
+Package: com.rov3r.youtubeelectra
+Name: YouTube ++ (Electra)
+Version: 1.7r-97
+Architecture: iphoneos-arm
+Description: Download all YouTube Videos! Continue background playback and much more!!!
+Author: UnlimApps Inc <support@unlimapps.com>
+Section: Social
+Depends: mobilesubstrate, firmware (>= 11.0), com.rov3r.uasharedtoolselectra
+Conflicts: com.unlimapps.uasharedtools, com.yourepo.kiiimo.ytppads
