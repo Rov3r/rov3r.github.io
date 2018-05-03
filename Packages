@@ -80,6 +80,22 @@ Description: Bypasses Electra Jailbreak Detection.
 Author: RealMrK
 Name: Bypass PayPal JB Detection
 
+Package: com.rov3r.igadkiller
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: rov3r <rov3r@icloud.com>
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: deb/com.rov3r.igadkiller_1.0_iphoneos-arm.deb
+Size: 2560
+MD5sum: 7ebef583a4e152181474ac0698022a39
+SHA1: b3e28785f6e83c2d30779337d5726a95b213bc93
+SHA256: 96afacaca25ceea819b3f8e937b76c536ae666d12334890ad6fa8879f316e49d
+Section: Tweaks
+Description: Say goodbye to Instagram Stories Ads! (Works on the latest version as of May 2, 2018)
+Author: Rov3r
+Name: IGAdKiller
+
 Package: com.rov3r.nomirror11fft
 Version: 1.1-1
 Architecture: iphoneos-arm
