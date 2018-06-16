@@ -149,6 +149,38 @@ Author: Rov3r
 Depiction: https://rov3r.github.io/rov3r.com_files/tumblr++/tumblr++.html
 Name: Tumblr ++
 
+Package: com.rov3r.ytmusicplus
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Rov3r <rov3r@me.com>
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: deb/com.rov3r.ytmusicplus_1.0_iphoneos-arm.deb
+Size: 3228
+MD5sum: a202252bfffabcb76c462cafcbaf6b98
+SHA1: 8b46b593ca930365e164f2416701836bceec3a3f
+SHA256: b02ed1ef2614e6fd1d3b8fc92dc818bc170e23b40b7d0f18fcb81086123095f8
+Section: Tweaks
+Description: No Ads, Background Playback, and Audio Only streaming!
+Author: Rov3r
+Name: YTMusicPlus
+
+Package: com.rov3r.ytwatchplus
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Rov3r <rov3r@me.com>
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: deb/com.rov3r.ytwatchplus_1.0_iphoneos-arm.deb
+Size: 3272
+MD5sum: dcf86e8e8c4a33b4fcebaa8acebfb7de
+SHA1: ccc81882c070ea5b66a149aada4597487b6b6c7e
+SHA256: af770b5c5492bccec9f518b3d6e11d370ae4a44b1b8dcccd2145742db5ea68df
+Section: Tweaks
+Description: Lightweight Adblocker for YouTube
+Author: Rov3r
+Name: YTWatchPlus
+
 Package: com.yourepo.rov3r.dockxiforios891011
 Version: 1.1.0
 Architecture: iphoneos-arm
