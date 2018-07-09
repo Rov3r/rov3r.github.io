@@ -115,16 +115,16 @@ Depiction: https://rov3r.github.io/rov3r.com_files/nomirror11/tweak.html
 Name: NoMirror11 for FaceTime
 
 Package: com.rov3r.scmusicplus
-Version: 1.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: Rov3r <rov3r@me.com>
 Installed-Size: 120
 Depends: mobilesubstrate
-Filename: deb/com.rov3r.scmusicplus_1.0_iphoneos-arm.deb
-Size: 3902
-MD5sum: abd594691862bd2bee57a756651a1246
-SHA1: 4cc2049f38a2d9be614d77f5c77298e556b6cf5c
-SHA256: c8826369212c42d835b53751516990470782cc498d42a1a277536b8e1aaa8784
+Filename: deb/com.rov3r.scmusicplus_1.0.1_iphoneos-arm.deb
+Size: 3896
+MD5sum: b75f4038bcd9142be519e20966285562
+SHA1: 55b0bddbeec5e2a34436151cf264f86b2594942c
+SHA256: 6aec492ce8bae4c604eec6bed0d2b2fe014ae443ad4bed90009240cc98a533dd
 Section: Tweaks
 Description: No Ads & Unlimited Skips for SoundCloud v5.32.1, credit @akasarx.
 Author: akasarx

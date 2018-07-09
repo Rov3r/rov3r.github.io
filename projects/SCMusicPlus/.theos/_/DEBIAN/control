@@ -6,5 +6,5 @@ Depends: mobilesubstrate
 Maintainer: Rov3r <rov3r@me.com>
 Architecture: iphoneos-arm
 Section: Tweaks
-Version: 1.0
+Version: 1.0.1
 Installed-Size: 120
