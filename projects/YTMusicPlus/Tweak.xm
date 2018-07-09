@@ -69,3 +69,9 @@
 } 
 %end
 
+%hook YTIPlayerResponse
+- (bool)isMonetized {
+    return 0;
+} 
+%end
+

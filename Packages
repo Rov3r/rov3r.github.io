@@ -114,6 +114,22 @@ Author: Rov3r
 Depiction: https://rov3r.github.io/rov3r.com_files/nomirror11/tweak.html
 Name: NoMirror11 for FaceTime
 
+Package: com.rov3r.scmusicplus
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Rov3r <rov3r@me.com>
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: deb/com.rov3r.scmusicplus_1.0_iphoneos-arm.deb
+Size: 3906
+MD5sum: bc824dd7f8fd46cabe6a0737e74e8842
+SHA1: a3dc9185e5543683d14de2d4345e6903ffc52be1
+SHA256: 94b236b4235045de78a57bf7a994f9a696a2970ccbb67b2405b291f143072351
+Section: Tweaks
+Description: No Ads & Unlimited Skips for SoundCloud v5.32.1, credit @akasarx.
+Author: akasarx
+Name: SoundCloudMusic Plus
+
 Package: com.rov3r.stravaplus
 Version: 0.1-2
 Architecture: iphoneos-arm
@@ -150,34 +166,34 @@ Depiction: https://rov3r.github.io/rov3r.com_files/tumblr++/tumblr++.html
 Name: Tumblr ++
 
 Package: com.rov3r.ytmusicplus
-Version: 1.0
+Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: Rov3r <rov3r@me.com>
 Installed-Size: 120
 Depends: mobilesubstrate
-Filename: deb/com.rov3r.ytmusicplus_1.0_iphoneos-arm.deb
-Size: 3228
-MD5sum: a202252bfffabcb76c462cafcbaf6b98
-SHA1: 8b46b593ca930365e164f2416701836bceec3a3f
-SHA256: b02ed1ef2614e6fd1d3b8fc92dc818bc170e23b40b7d0f18fcb81086123095f8
+Filename: deb/com.rov3r.ytmusicplus_1.1_iphoneos-arm.deb
+Size: 3280
+MD5sum: 97b46025c8c9be3917146157959f73c6
+SHA1: 4e6961febf923f2f5ba0edbe1b728d0b551e091b
+SHA256: 574abd20c94b904f135195e75eed8624a9062451d4a0ad89e43f106545820da3
 Section: Tweaks
-Description: No Ads, Background Playback, and Audio Only streaming!
+Description: Remove Ads Completely on YouTube Music
 Author: Rov3r
 Name: YTMusicPlus
 
 Package: com.rov3r.ytwatchplus
-Version: 1.0
+Version: 1.3
 Architecture: iphoneos-arm
 Maintainer: Rov3r <rov3r@me.com>
 Installed-Size: 120
 Depends: mobilesubstrate
-Filename: deb/com.rov3r.ytwatchplus_1.0_iphoneos-arm.deb
-Size: 3272
-MD5sum: dcf86e8e8c4a33b4fcebaa8acebfb7de
-SHA1: ccc81882c070ea5b66a149aada4597487b6b6c7e
-SHA256: af770b5c5492bccec9f518b3d6e11d370ae4a44b1b8dcccd2145742db5ea68df
+Filename: deb/com.rov3r.ytwatchplus_1.3_iphoneos-arm.deb
+Size: 2850
+MD5sum: 694af7e7328db9c6d7cadf5a2c163166
+SHA1: 89579f263fdb76f67e0d326ebe3d4e79bd58a087
+SHA256: f43f22119aa6f049c7ae96329d87aec25917c4511b4af46489c211a02190ca76
 Section: Tweaks
-Description: Lightweight Adblocker for YouTube
+Description: Disables Ads, Enables Background Playback. Works on the latest version as of July 8, 2018.
 Author: Rov3r
 Name: YTWatchPlus
 

@@ -1,10 +1,10 @@
 Package: com.rov3r.ytmusicplus
 Name: YTMusicPlus
 Author: Rov3r
-Description: No Ads, Background Playback, and Audio Only streaming!
+Description: Remove Ads Completely on YouTube Music 
 Depends: mobilesubstrate
 Maintainer: Rov3r <rov3r@me.com>
 Architecture: iphoneos-arm
 Section: Tweaks
-Version: 1.0
+Version: 1.1
 Installed-Size: 120

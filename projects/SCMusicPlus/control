@@ -1,0 +1,9 @@
+Package: com.rov3r.scmusicplus
+Name: SoundCloudMusic Plus
+Author: akasarx
+Description: No Ads & Unlimited Skips for SoundCloud v5.32.1, credit @akasarx.
+Depends: mobilesubstrate
+Maintainer: Rov3r <rov3r@me.com>
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 1.0

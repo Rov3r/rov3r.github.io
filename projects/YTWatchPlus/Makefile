@@ -1,6 +1,6 @@
 include $(THEOS)/makefiles/common.mk
 
-TWEAK_NAME = YTWatchPlusRov3rRepo
-YTWatchPlusRov3rRepo_FILES = Tweak.xm
+TWEAK_NAME = NoAdsYoutubeV1322V1323FIXED
+NoAdsYoutubeV1322V1323FIXED_FILES = Tweak.xm
 
 include $(THEOS_MAKE_PATH)/tweak.mk
