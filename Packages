@@ -226,21 +226,6 @@ Description: Adds a Respring module for the Control Center (iOS 11 - 11.4 beta 3
 Author: M4cs
 Name: EzRespring (CCSupport)
 
-Package: com.yourepo.rov3r.ezrespringccsupportcompatible
-Version: 50.1
-Architecture: iphoneos-arm
-Maintainer: Rov3r <rov3r@me.com>
-Depends: com.opa334.ccsupport
-Filename: deb/com.yourepo.rov3r.ezrespringccsupportcompatible_50.1_iphoneos-arm.deb
-Size: 10040
-MD5sum: 1cdc713fa51616f0f72a083cf6373aa8
-SHA1: 59592859419ba2e4ab96e887a09009a9ed62dfb9
-SHA256: ef2d433bbd7e22431473eda2c512dd7f53b026ddff45d204ba8927695e481122
-Section: Tweaks
-Description: CC Toggle for Respringing. Supports iOS 11 - 11.3.1
-Author: M4cs
-Name: EzRespring (CCSupport Compatible)
-
 Package: com.yourepo.rov3r.supporttheunsupported
 Version: 1.1
 Architecture: iphoneos-arm
