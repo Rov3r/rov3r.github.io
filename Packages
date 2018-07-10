@@ -212,20 +212,6 @@ Description: iOS 11 Dock Style For iOS Devices. (The only difference between thi
 Author: XCXiao <958169971@qq.com>
 Name: DockXI For iOS8/9/10/11
 
-Package: com.yourepo.rov3r.ezrespringccsupport
-Version: 55.0
-Architecture: iphoneos-arm
-Maintainer: Rov3r <rov3r@me.com>
-Filename: deb/com.yourepo.rov3r.ezrespringccsupport_55.0_iphoneos-arm.deb
-Size: 10152
-MD5sum: 8e5bc0fbd427a03f5b782ddcee36cc0a
-SHA1: e3743969a001e9cf88f19d11da86e3c9f6d8cf90
-SHA256: 514c48bd79581bb749f8e39fba4c28a4f94bd87022510116acec234d382006f6
-Section: Tweaks
-Description: Adds a Respring module for the Control Center (iOS 11 - 11.4 beta 3) - INSTALLATION INSTRUCTIONS: Install Silo, Install this package, Install CCSupport (this will also remove Silo), DONE!
-Author: M4cs
-Name: EzRespring (CCSupport)
-
 Package: com.yourepo.rov3r.supporttheunsupported
 Version: 1.1
 Architecture: iphoneos-arm
