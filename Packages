@@ -188,13 +188,14 @@ Maintainer: Rov3r <rov3r@me.com>
 Installed-Size: 120
 Depends: mobilesubstrate
 Filename: deb/com.rov3r.ytmusicplus_1.2_iphoneos-arm.deb
-Size: 3298
-MD5sum: 3256e1edf86ff098414a8572686ddc6c
-SHA1: 02a3ea75634b436c9d5a01a5c05b11852f667ea0
-SHA256: 64a1ad530ebe1ecc6cd1a98a3620aa2bcca5c1b057c24be545a43fda1192b06a
+Size: 3326
+MD5sum: 54e323aee2b0df71023e3ad458bf7dee
+SHA1: 426147dbc59113688daee0cfdbf071af6788aab9
+SHA256: a8f8d7fa060484861906221a28f9c885adf4bdbdadbf936d8d549e6c4b3eedd4
 Section: Tweaks
-Description: https://rov3r.github.io/depiction/com.rov3r.ytmusicplus/index.html
+Description: Enable background playback, and block ads!
 Author: Rov3r
+Depiction: https://rov3r.github.io/depiction/com.rov3r.ytmusicplus/index.html
 Icon: https://rov3r.github.io/depiction/com.rov3r.ytmusicplus/index_files/ytmusicplus.png
 Name: YTMusicPlus
 
