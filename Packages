@@ -114,6 +114,22 @@ Author: Rov3r
 Depiction: https://rov3r.github.io/rov3r.com_files/nomirror11/tweak.html
 Name: NoMirror11 for FaceTime
 
+Package: com.rov3r.nosplitmessages
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Rov3r <rov3r@me.com>
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: deb/com.rov3r.nosplitmessages_1.0_iphoneos-arm.deb
+Size: 2634
+MD5sum: 70896cb38dba10963c652d328b6f566f
+SHA1: 0258af2274da75cf9b8691baa03afcd28020fa9a
+SHA256: a32676e12befdadd0bfacf8623ae07d7086ae1c67af31df880d69d306f36ff60
+Section: Tweaks
+Description: Disables splitting messages when rotated on Plus sized devices and iPads
+Author: prouser
+Name: NoSplitMessages
+
 Package: com.rov3r.scmusicplus
 Version: 1.0.1
 Architecture: iphoneos-arm
@@ -166,19 +182,20 @@ Depiction: https://rov3r.github.io/rov3r.com_files/tumblr++/tumblr++.html
 Name: Tumblr ++
 
 Package: com.rov3r.ytmusicplus
-Version: 1.1
+Version: 1.2
 Architecture: iphoneos-arm
 Maintainer: Rov3r <rov3r@me.com>
 Installed-Size: 120
 Depends: mobilesubstrate
-Filename: deb/com.rov3r.ytmusicplus_1.1_iphoneos-arm.deb
-Size: 3280
-MD5sum: 97b46025c8c9be3917146157959f73c6
-SHA1: 4e6961febf923f2f5ba0edbe1b728d0b551e091b
-SHA256: 574abd20c94b904f135195e75eed8624a9062451d4a0ad89e43f106545820da3
+Filename: deb/com.rov3r.ytmusicplus_1.2_iphoneos-arm.deb
+Size: 3302
+MD5sum: 601d4652d4e11929f48ecad93f4c8d20
+SHA1: 5075b2a21f8a343b16d330f751c17da570729270
+SHA256: d27ebf242052ccf326f1b7e121be15d4d562b61dee888204a6235e37475dfaa0
 Section: Tweaks
-Description: Remove Ads Completely on YouTube Music
+Description: https://rov3r.github.io/depiction/com.rov3r.ytmusicplus/index.html
 Author: Rov3r
+Depiction: https://rov3r.github.io/depiction/com.rov3r.ytmusicplus/index_files/ytmusicplus.png
 Name: YTMusicPlus
 
 Package: com.rov3r.ytwatchplus
