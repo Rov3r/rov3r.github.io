@@ -1,0 +1,10 @@
+Package: com.rov3r.nosplitmessages
+Name: NoSplitMessages
+Author: prouser
+Description: Disables splitting messages when rotated on Plus sized devices and iPads
+Depends: mobilesubstrate
+Maintainer: Rov3r <rov3r@me.com>
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 1.0
+Installed-Size: 120
