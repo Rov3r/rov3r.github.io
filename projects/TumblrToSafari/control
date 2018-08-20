@@ -2,8 +2,9 @@ Package: com.duckyz.tumblrtosafari
 Name: TumblrToSafari
 Author: Duckyz
 Description: Disables SafariViewService in Tumblr which will allows you to open links in Safari instead of the in-app browser. This tweak also prevents SafariViewService from constantly crashing.
+Depiction: https://rov3r.github.io/depiction/com.duckyz.tumblrtosafari/index.html
 Depends: mobilesubstrate
 Maintainer: Rov3r <jaredsiphonehelp@gmail.com>
 Architecture: iphoneos-arm
 Section: Tweaks
-Version: 1.0
+Version: 1.1
