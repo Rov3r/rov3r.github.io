@@ -1,4 +1,5 @@
 Package: com.rov3r.stravaplus
+Name: StravaPlus
 Author: Rov3r
 Description: Premium Strava features for free! (Released: August 29th, 2018)
 Depends: mobilesubstrate

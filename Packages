@@ -153,13 +153,14 @@ Maintainer: Rov3r <rov3r@me.com>
 Installed-Size: 120
 Depends: mobilesubstrate
 Filename: deb/com.rov3r.stravaplus_0.2_iphoneos-arm.deb
-Size: 2700
-MD5sum: 4d866f8058bbceb84c6cb31238cba3e5
-SHA1: 589e95eaf7b78ec5eaf1f68ddd88025dc950e79f
-SHA256: 08000b71e374a744197db1b6b2a29023a931c8b8a1e21104426772d378fd06ee
+Size: 2714
+MD5sum: 46dcec023acacd3dc7cba797161ad9ed
+SHA1: f42036338351aaf345838e83077d0d703b367568
+SHA256: 32832ca0c72462238aaf40239424b4cb777ca6048a2fd4720c704375977007ab
 Section: Tweaks
 Description: Premium Strava features for free! (Released: August 29th, 2018)
 Author: Rov3r
+Name: StravaPlus
 
 Package: com.rov3r.tumblrplusplus
 Version: 1.2
