@@ -1,0 +1,260 @@
+Package: com.davidqt69.showmeprogress
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Rov3r <rov3r@icloud.com>
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: deb/com.davidqt69.showmeprogress_1.0_iphoneos-arm.deb
+Size: 2810
+MD5sum: 3e5dc08470a3402bab06892a52e7aaab
+SHA1: c2eeea29367334ed2e7d94e73c6e7ef16185f5bc
+SHA256: 140a26cdedbcc9ea75797b5334e0cf5f21672dd611ea7d05e6c71dc65933fdd2
+Section: Tweaks
+Description: For iOS 11 - Shows message sending progress for ALL messages and not just images/videos! [Message from the creator: DONATE if you like my tweaks and would like to see me create more tweaks that you enjoy.  https://PayPal.me/PBCAlerts]
+Author: DavidQT69
+Name: ShowMeProgress
+
+Package: com.duckyz.tumblrtosafari
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Rov3r <jaredsiphonehelp@gmail.com>
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: deb/com.duckyz.tumblrtosafari_1.0_iphoneos-arm.deb
+Size: 2726
+MD5sum: 4a9abc86d675a778bacfa270c2b2d621
+SHA1: ea3166978a335cba5ed0e16b922e3c569ddcb1f0
+SHA256: 6b47bf3509a38b43dbed1cddbf97d66630a442489a75385c7b37d78d58a2d1f2
+Section: Tweaks
+Description: Disables SafariViewService in Tumblr which will allows you to open links in Safari instead of the in-app browser. This tweak also prevents SafariViewService from constantly crashing.
+Author: Duckyz
+Name: TumblrToSafari
+
+Package: com.rov3r.allboardsunlocked
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: Rov3r <jaredsiphonehelp@gmail.com>
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: deb/com.rov3r.allboardsunlocked_1.2_iphoneos-arm.deb
+Size: 2808
+MD5sum: 54096f9af9896bf0108448c93f5e36de
+SHA1: c44130ac0e4e250587385d2f108246966f1424b6
+SHA256: 9aaebb47d1206945496437e832eb2aa19111370e0ce8795efc2ce8a461b3d99c
+Section: Tweaks
+Homepage: https://rov3r.github.io/rov3r.com_files/touchgrind/touchgrind.html
+Description: Unlock all Touchgrind (Original) Boards
+Author: Rov3r
+Depiction: https://rov3r.github.io/rov3r.com_files/touchgrind/touchgrind.html
+Name: TouchgrindUnlocked (by Rov3r)
+
+Package: com.rov3r.betternetplusplus
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Rov3r <jaredsiphonehelp@gmail.com>
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: deb/com.rov3r.betternetplusplus_1.0_iphoneos-arm.deb
+Size: 3114
+MD5sum: 546e8d3f293a816b80def812a9bb58de
+SHA1: 6a81d53269816ed54b6bdc708bc7370e696623cc
+SHA256: fc9ad59be6548bff65629d133c20e3c0505f38967a4b77c6a01039ab32ea77a0
+Section: Tweaks
+Description: Premium Betternet (The ads are very intrusive and they're careless with your information. Use Betternet VPN sparingly. See more here: https://restoreprivacy.com/betternet-review/)
+Author: Rov3r
+Name: Betternet++
+
+Package: com.rov3r.electrajbbypass
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Rov3r <jaredsiphonehelp@gmail.com>
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: deb/com.rov3r.electrajbbypass_1.0_iphoneos-arm.deb
+Size: 2726
+MD5sum: 1d245c1491de885d0d27b95d9f555f7e
+SHA1: a9a7716dad7638acd1ba3fb7c842229d05bedc8b
+SHA256: 44865977e86bf9e04133c4a9c72a6f040e241a6628b6fb64a7fa11d2731ebd12
+Section: Tweaks
+Description: Bypasses Electra Jailbreak Detection.
+Author: RealMrK
+Name: Bypass PayPal JB Detection
+
+Package: com.rov3r.igadkiller
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: rov3r <rov3r@icloud.com>
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: deb/com.rov3r.igadkiller_1.0_iphoneos-arm.deb
+Size: 2560
+MD5sum: 7ebef583a4e152181474ac0698022a39
+SHA1: b3e28785f6e83c2d30779337d5726a95b213bc93
+SHA256: 96afacaca25ceea819b3f8e937b76c536ae666d12334890ad6fa8879f316e49d
+Section: Tweaks
+Description: Say goodbye to Instagram Stories Ads! (Works on the latest version as of May 2, 2018)
+Author: Rov3r
+Name: IGAdKiller
+
+Package: com.rov3r.nomirror11fft
+Version: 1.1-1
+Architecture: iphoneos-arm
+Maintainer: Rov3r <jaredsiphonehelp@gmail.com>
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: deb/com.rov3r.nomirror11fft_1.1-1_iphoneos-arm.deb
+Size: 2576
+MD5sum: e2fed6d113740e7be2e475c381d79712
+SHA1: f31c5d8079c8cca9d4bdd38847c38d06ab2238fc
+SHA256: 9fa08d874730f1373b6bb346e07947464a64e5579412eaf9cc91b89775f90a3b
+Section: Tweaks
+Homepage: https://rov3r.github.io/rov3r.com_files/nomirror11/tweak.html
+Description: Disable FaceTime Live Feed
+Author: Rov3r
+Depiction: https://rov3r.github.io/rov3r.com_files/nomirror11/tweak.html
+Name: NoMirror11 for FaceTime
+
+Package: com.rov3r.nosplitmessages
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Rov3r <rov3r@me.com>
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: deb/com.rov3r.nosplitmessages_1.0_iphoneos-arm.deb
+Size: 2634
+MD5sum: 70896cb38dba10963c652d328b6f566f
+SHA1: 0258af2274da75cf9b8691baa03afcd28020fa9a
+SHA256: a32676e12befdadd0bfacf8623ae07d7086ae1c67af31df880d69d306f36ff60
+Section: Tweaks
+Description: Disables splitting messages when rotated on Plus sized devices and iPads
+Author: prouser
+Name: NoSplitMessages
+
+Package: com.rov3r.scmusicplus
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Rov3r <rov3r@me.com>
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: deb/com.rov3r.scmusicplus_1.0.1_iphoneos-arm.deb
+Size: 3896
+MD5sum: b75f4038bcd9142be519e20966285562
+SHA1: 55b0bddbeec5e2a34436151cf264f86b2594942c
+SHA256: 6aec492ce8bae4c604eec6bed0d2b2fe014ae443ad4bed90009240cc98a533dd
+Section: Tweaks
+Description: No Ads & Unlimited Skips for SoundCloud v5.32.1, credit @akasarx.
+Author: akasarx
+Name: SCMusicPlus
+
+Package: com.rov3r.stravaplus
+Version: 0.2
+Architecture: iphoneos-arm
+Maintainer: Rov3r <rov3r@me.com>
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: deb/com.rov3r.stravaplus_0.2_iphoneos-arm.deb
+Size: 2700
+MD5sum: 4d866f8058bbceb84c6cb31238cba3e5
+SHA1: 589e95eaf7b78ec5eaf1f68ddd88025dc950e79f
+SHA256: 08000b71e374a744197db1b6b2a29023a931c8b8a1e21104426772d378fd06ee
+Section: Tweaks
+Description: Premium Strava features for free! (Released: August 29th, 2018)
+Author: Rov3r
+
+Package: com.rov3r.tumblrplusplus
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: Rov3r <jaredsiphonehelp@gmail.com>
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: deb/com.rov3r.tumblrplusplus_1.2_iphoneos-arm.deb
+Size: 3300
+MD5sum: b3553ccbde27972d5342c0a0c7d1b7ec
+SHA1: 2efd6199d928b738e0f6e50bfc14272ec24cceb1
+SHA256: 0167e46cff9e4cf055f0d7530a6bea0bc15bbe18ea4c7f3158c6e58b7acf4306
+Section: Tweaks
+Homepage: https://rov3r.github.io/rov3r.com_files/tumblr++/tumblr++.html
+Description: Add more to Tumblr!
+Author: Rov3r
+Depiction: https://rov3r.github.io/rov3r.com_files/tumblr++/tumblr++.html
+Name: Tumblr ++
+
+Package: com.rov3r.ytmusicplus
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: Rov3r <rov3r@me.com>
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: deb/com.rov3r.ytmusicplus_1.2_iphoneos-arm.deb
+Size: 3326
+MD5sum: 54e323aee2b0df71023e3ad458bf7dee
+SHA1: 426147dbc59113688daee0cfdbf071af6788aab9
+SHA256: a8f8d7fa060484861906221a28f9c885adf4bdbdadbf936d8d549e6c4b3eedd4
+Section: Tweaks
+Description: Enable background playback, and block ads!
+Author: Rov3r
+Depiction: https://rov3r.github.io/depiction/com.rov3r.ytmusicplus/index.html
+Icon: https://rov3r.github.io/depiction/com.rov3r.ytmusicplus/index_files/ytmusicplus.png
+Name: YTMusicPlus
+
+Package: com.rov3r.ytwatchplus
+Version: 1.3
+Architecture: iphoneos-arm
+Maintainer: Rov3r <rov3r@me.com>
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: deb/com.rov3r.ytwatchplus_1.3_iphoneos-arm.deb
+Size: 2850
+MD5sum: 694af7e7328db9c6d7cadf5a2c163166
+SHA1: 89579f263fdb76f67e0d326ebe3d4e79bd58a087
+SHA256: f43f22119aa6f049c7ae96329d87aec25917c4511b4af46489c211a02190ca76
+Section: Tweaks
+Description: Disables Ads, Enables Background Playback. Works on the latest version as of July 8, 2018.
+Author: Rov3r
+Name: YTWatchPlus
+
+Package: com.yourepo.rov3r.dockxiforios891011
+Version: 1.1.0
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 8.0), preferenceloader
+Conflicts: com.xcxiao.dockxi
+Filename: deb/com.rov3r.dockxi_1.1.0.deb
+Size: 26128
+MD5sum: 8876e09906a483b5c348a4bdd59c397e
+SHA1: 4543e84bca00a76b4d2d576a568fbfae71c4f708
+SHA256: 8d0098bec225b1c8f35c14fc415fce0f497a10b48ea908be6afb60fd55f9550f
+Section: Tweaks
+Description: iOS 11 Dock Style For iOS Devices. (The only difference between this and the one on BigBoss is this one actually has less bugs.)
+Author: XCXiao <958169971@qq.com>
+Name: DockXI For iOS8/9/10/11
+
+Package: com.yourepo.rov3r.supporttheunsupported
+Version: 1.1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: deb/com.yourepo.rov3r.supporttheunsupported_1.1.deb
+Size: 3318
+MD5sum: e99182ca9b7cd750a1878d9b6d17f537
+SHA1: 174f763f7046823b75e7552aa2e3508819ce2bf9
+SHA256: 35b213d8cedfa495325b497b31fa0ad67969d87add40c3ab0cc1078837112f1a
+Section: System
+Description: Allows iPhones to use “unsupported” accessories. Works on iOS 7 - 11.
+Author: Tony Kraft <rov3r@icloud.com>
+Name: SupportTheUnsupported
+
+Package: com.zidapi.disableios11sspreview
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Rov3r <jaredsiphonehelp@gmail.com>
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: deb/com.zidapi.disableios11sspreview_1.1_iphoneos-arm.deb
+Size: 2610
+MD5sum: ef70da6b809ef06db31fa28ae5b81ad7
+SHA1: ad1da0ecbc851a02aa535edc484f9622c710c935
+SHA256: 023c712ee301cbea596fef8156b716986ccc10de46c523042454811d048e77bc
+Section: Tweaks
+Description: Disables the Preview and Flash Effect when taking screenshots. Credit goes to u/p0wer0n for pointing me in the right direction.
+Author: zidapi
+Name: NoScreenShot11
+
