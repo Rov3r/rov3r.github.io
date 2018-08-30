@@ -22,8 +22,29 @@
 } 
 %end
 
+%hook StravaPremiumFeatureGatekeeper
+- (bool)hasSomeAccess {
+    return 1;
+} 
+%end
+
+%hook StravaPremiumFeatureCTAViewModel
+- (bool)ctaAvailable {
+    return 1;
+} 
+%end
+
+%hook StravaPremiumManager
+- (long long)premiumStatusForAthlete:(id)arg1 {
+    arg1 = NULL;
+    return 1;
+    return %orig;
+} 
+%end
+
 %ctor {
-    %init(StravaPremiumFeatureGatekeeper = objc_getClass("Strava.PremiumFeatureGatekeeper"));
+    %init(StravaPremiumFeatureGatekeeper = objc_getClass("Strava.PremiumFeatureGatekeeper"),
+        StravaPremiumFeatureCTAViewModel = objc_getClass("Strava.PremiumFeatureCTAViewModel"));
 
 }
 
