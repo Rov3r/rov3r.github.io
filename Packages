@@ -64,6 +64,22 @@ Description: Premium Betternet (The ads are very intrusive and they're careless 
 Author: Rov3r
 Name: Betternet++
 
+Package: com.rov3r.betterspotify
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Rov3r <rov3r@icloud.com>
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: deb/com.rov3r.betterspotify_1.0_iphoneos-arm.deb
+Size: 3544
+MD5sum: 16e099b27332221d16c7b951e4793fa6
+SHA1: 06902ddc7aabc65b17be17fce7faaeabfb2d8344
+SHA256: 166c43700e3d81374a28631055cfd175f7902fbb004e48b8274fcf94e37e6658
+Section: Tweaks
+Description: Speed Up App Launch (iOS 11), Enable tapping of controls/skimming but no real function. Just enabled to where they aren’t all locked down and faded out.
+Author: Rov3r
+Name: BetterSpotify
+
 Package: com.rov3r.electrajbbypass
 Version: 1.0
 Architecture: iphoneos-arm
