@@ -78,6 +78,18 @@
 } 
 %end
 
+%hook FBAdCloseButton
+- (bool)isCloseable {
+    return 1;
+} 
+%end
+
+%hook TMBuildConfiguration
++ (bool)isBetaConfiguration {
+    return 1;
+} 
+%end
+
 %ctor {
     %init(TumblrBlocksPostVideoBlockYahooView = objc_getClass("Tumblr.BlocksPostVideoBlockYahooView"),
         TumblrBlocksPostVideoBlockNativeView = objc_getClass("Tumblr.BlocksPostVideoBlockNativeView"));
