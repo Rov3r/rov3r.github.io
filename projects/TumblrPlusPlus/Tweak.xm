@@ -90,9 +90,36 @@
 } 
 %end
 
+%hook SharedUISafeModeCensorView
+- (void)safeModeIsOnTapped:(id)arg1 {
+    arg1 = @"1";
+    %orig;
+} 
+%end
+
+%hook SharedUISafeModeCensorView
+- (void)showMeAnywayTapped:(id)arg1 {
+    arg1 = @"1";
+    %orig;
+} 
+%end
+
+%hook TMPostViewConfiguration
+- (bool)overrideSafeMode {
+    return 1;
+} 
+%end
+
+%hook TMCarouselBlogCardCollectionViewCell
+- (id)safeModeCensorView {
+    return NULL;
+} 
+%end
+
 %ctor {
     %init(TumblrBlocksPostVideoBlockYahooView = objc_getClass("Tumblr.BlocksPostVideoBlockYahooView"),
-        TumblrBlocksPostVideoBlockNativeView = objc_getClass("Tumblr.BlocksPostVideoBlockNativeView"));
+        TumblrBlocksPostVideoBlockNativeView = objc_getClass("Tumblr.BlocksPostVideoBlockNativeView"),
+        SharedUISafeModeCensorView = objc_getClass("SharedUI.SafeModeCensorView"));
 
 }
 
