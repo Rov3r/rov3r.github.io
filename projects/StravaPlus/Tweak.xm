@@ -76,6 +76,8 @@
 
 %hook STRVAnnualGoalTableViewCell
 - (void)updateForNoGoalWithAchievedYTD:(id)arg1 editable:(bool)arg2 premium:(bool)arg3 animated:(bool)arg4 {
+    arg3 = 1;
+    %orig;
 }
 %end
 
@@ -89,6 +91,7 @@
 %hook STRVAnnualGoalTableViewCell
 - (id)imageForSetGoalForMode:(long long)arg1 premium:(bool)arg2 color:(id)arg3 {
     arg2 = 1;
+    return NULL;
 }
 %end
 

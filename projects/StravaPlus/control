@@ -1,9 +1,9 @@
-Package: com.(null).StravaPlus
+Package: com.rov3r.stravaplus
 Name: StravaPlus
-Author: (null)
-Description: 
+Author: Rov3r
+Description: Premium/Summit features for free! (Works on latest version as of August 29, 2018) - Version 0.2.3 supposedly fixes EVERYTHING. Enjoy!
 Depends: mobilesubstrate
-Maintainer: ipad_kid <ipadkid358@gmail.com>
+Maintainer: Rov3r <rov3r@me.com>
 Architecture: iphoneos-arm
 Section: Tweaks
-Version: 0.0.1
+Version: 0.2.3
