@@ -1,10 +1,10 @@
 Package: com.rov3r.stravaplus
 Name: StravaPlus
 Author: Rov3r
-Description: Premium Summit features for free! (Works on latest version as of August 29, 2018) - Version 0.2.1 fixes an issue with Summit leaderboards not being accessible.
+Description: Premium/Summit features for free! (Works on latest version as of December, 2018)
 Depends: mobilesubstrate
 Maintainer: Rov3r <rov3r@me.com>
 Architecture: iphoneos-arm
 Section: Tweaks
-Version: 0.2.1
-Installed-Size: 120
+Version: 0.3
+Installed-Size: 104
