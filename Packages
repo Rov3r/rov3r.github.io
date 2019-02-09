@@ -179,16 +179,16 @@ Author: Rov3r
 Name: StravaPlus
 
 Package: com.rov3r.tumblrplusplus
-Version: 1.6
+Version: 1.7
 Architecture: iphoneos-arm
 Maintainer: Rov3r <rov3r@me.com>
 Installed-Size: 104
 Depends: mobilesubstrate
-Filename: deb/com.rov3r.tumblrplusplus_1.6_iphoneos-arm.deb
-Size: 3716
-MD5sum: 695bccdec380b2309c60749acb8f5c2d
-SHA1: 0db0435f1a4beff2e428bddc1178203b3e2be23c
-SHA256: 49126134168f91d1e84c805f382e7543f08cb5743c5781af211a52a9c775e741
+Filename: deb/com.rov3r.tumblrplusplus_1.7_iphoneos-arm.deb
+Size: 3936
+MD5sum: 2c0ff38d473b4f5be8cd7608dd1a79a9
+SHA1: 0ea7620796e110fd0e40ea1dd0f585b34d28d14c
+SHA256: 94677dee8de1c5fd1d0a77ecc7c3f62235d8674ba7c2e9833900b82e1be79211
 Section: Tweaks
 Homepage: https://rov3r.github.io/rov3r.com_files/tumblr++/tumblr++.html
 Description: Add more to Tumblr!

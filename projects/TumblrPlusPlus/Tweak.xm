@@ -116,6 +116,37 @@
 } 
 %end
 
+%hook FlurryManagedUIAd
+- (bool)isSponsoredAd {
+    return 0;
+} 
+%end
+
+%hook FlurryManagedUIAd
+- (void)setIsSponsoredAd:(bool)arg1 {
+    arg1 = 0;
+    %orig;
+} 
+%end
+
+%hook TMPost
+- (bool)isSponsored {
+    return 0;
+} 
+%end
+
+%hook YMAdVideoPlayerView
+- (bool)isSponsoredVideoAd {
+    return 0;
+} 
+%end
+
+%hook YMAdController
+- (bool)isAdHidden {
+    return 1;
+} 
+%end
+
 %ctor {
     %init(TumblrBlocksPostVideoBlockYahooView = objc_getClass("Tumblr.BlocksPostVideoBlockYahooView"),
         TumblrBlocksPostVideoBlockNativeView = objc_getClass("Tumblr.BlocksPostVideoBlockNativeView"),
