@@ -1,0 +1,9 @@
+Package: com.rov3r.disableautopausestrava
+Name: Disable Auto-Pause (for Strava)
+Author: Rov3r <rov3r@icloud.com>
+Description: Never accidentally pause a ride! Sometimes when checking in the app, it will auto-pause your activity. Which would be fine, if it would resume (it doesn’t). You can still manually pause by clicking ‘Finish’ then click ‘Resume’ to resume the ride.
+Depends: mobilesubstrate
+Maintainer: Rov3r <rov3r@me.com>
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 1.0
