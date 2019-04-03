@@ -80,22 +80,6 @@ Description: Speed Up App Launch (iOS 11), Enable tapping of controls/skimming b
 Author: Rov3r
 Name: BetterSpotify
 
-Package: com.rov3r.disableautopausestrava
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Rov3r <rov3r@me.com>
-Installed-Size: 104
-Depends: mobilesubstrate
-Filename: deb/com.rov3r.disableautopausestrava_1.0_iphoneos-arm.deb
-Size: 3192
-MD5sum: e1514dee5e652efccd0495a426595693
-SHA1: be375df2978377830b4df504d6fbab7e56c93d4f
-SHA256: 23d6d13eecc1209a9a8eb027e92e5a711cf4970879e95ba78506156510eb30da
-Section: Tweaks
-Description: Never accidentally pause a ride! Sometimes when checking in the app, it will auto-pause your activity. Which would be fine, if it would resume (it doesn’t). You can still manually pause by clicking ‘Finish’ then click ‘Resume’ to resume the ride.
-Author: Rov3r <rov3r@icloud.com>
-Name: Disable Auto-Pause (for Strava)
-
 Package: com.rov3r.electrajbbypass
 Version: 1.0
 Architecture: iphoneos-arm
