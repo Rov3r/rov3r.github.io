@@ -1,10 +1,10 @@
 Package: com.rov3r.stravaplus
 Name: StravaPlus
 Author: Rov3r
-Description: Premium (and some Summit) features unlocked! [Works on v92.0.0]
+Description: Premium (and some Summit) features unlocked! [Works on v92.0.0] (And A12)
 Depends: mobilesubstrate
 Maintainer: Rov3r <rov3r@me.com>
 Architecture: iphoneos-arm
 Section: Tweaks
-Version: 0.4
+Version: 0.4.1
 Installed-Size: 104
