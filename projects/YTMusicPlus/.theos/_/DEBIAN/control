@@ -3,10 +3,9 @@ Name: YTMusicPlus
 Author: Rov3r
 Description: Enable background playback, and block ads!
 Depiction: https://rov3r.github.io/depiction/com.rov3r.ytmusicplus/index.html
-Icon: https://rov3r.github.io/depiction/com.rov3r.ytmusicplus/index_files/ytmusicplus.png
 Depends: mobilesubstrate
 Maintainer: Rov3r <rov3r@me.com>
 Architecture: iphoneos-arm
 Section: Tweaks
-Version: 1.2
-Installed-Size: 120
+Version: 1.3
+Installed-Size: 104
