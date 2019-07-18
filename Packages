@@ -14,22 +14,6 @@ Description: For iOS 11 - Shows message sending progress for ALL messages and no
 Author: DavidQT69
 Name: ShowMeProgress
 
-Package: com.duckyz.tumblrtosafari
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Rov3r <jaredsiphonehelp@gmail.com>
-Installed-Size: 120
-Depends: mobilesubstrate
-Filename: deb/com.duckyz.tumblrtosafari_1.0_iphoneos-arm.deb
-Size: 2726
-MD5sum: 4a9abc86d675a778bacfa270c2b2d621
-SHA1: ea3166978a335cba5ed0e16b922e3c569ddcb1f0
-SHA256: 6b47bf3509a38b43dbed1cddbf97d66630a442489a75385c7b37d78d58a2d1f2
-Section: Tweaks
-Description: Disables SafariViewService in Tumblr which will allows you to open links in Safari instead of the in-app browser. This tweak also prevents SafariViewService from constantly crashing.
-Author: Duckyz
-Name: TumblrToSafari
-
 Package: com.rov3r.allboardsunlocked
 Version: 1.2
 Architecture: iphoneos-arm
@@ -79,38 +63,6 @@ Section: Tweaks
 Description: Speed Up App Launch (iOS 11), Enable tapping of controls/skimming but no real function. Just enabled to where they aren’t all locked down and faded out.
 Author: Rov3r
 Name: BetterSpotify
-
-Package: com.rov3r.electrajbbypass
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Rov3r <jaredsiphonehelp@gmail.com>
-Installed-Size: 120
-Depends: mobilesubstrate
-Filename: deb/com.rov3r.electrajbbypass_1.0_iphoneos-arm.deb
-Size: 2726
-MD5sum: 1d245c1491de885d0d27b95d9f555f7e
-SHA1: a9a7716dad7638acd1ba3fb7c842229d05bedc8b
-SHA256: 44865977e86bf9e04133c4a9c72a6f040e241a6628b6fb64a7fa11d2731ebd12
-Section: Tweaks
-Description: Bypasses Electra Jailbreak Detection.
-Author: RealMrK
-Name: Bypass PayPal JB Detection
-
-Package: com.rov3r.igadkiller
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: rov3r <rov3r@icloud.com>
-Installed-Size: 120
-Depends: mobilesubstrate
-Filename: deb/com.rov3r.igadkiller_1.0_iphoneos-arm.deb
-Size: 2560
-MD5sum: 7ebef583a4e152181474ac0698022a39
-SHA1: b3e28785f6e83c2d30779337d5726a95b213bc93
-SHA256: 96afacaca25ceea819b3f8e937b76c536ae666d12334890ad6fa8879f316e49d
-Section: Tweaks
-Description: Say goodbye to Instagram Stories Ads! (Works on the latest version as of May 2, 2018)
-Author: Rov3r
-Name: IGAdKiller
 
 Package: com.rov3r.nomirror11fft
 Version: 1.1-1
@@ -197,37 +149,21 @@ Depiction: https://rov3r.github.io/rov3r.com_files/tumblr++/tumblr++.html
 Name: Tumblr ++
 
 Package: com.rov3r.ytmusicplus
-Version: 1.3
+Version: 1.3.1
 Architecture: iphoneos-arm
 Maintainer: Rov3r <rov3r@me.com>
 Installed-Size: 104
 Depends: mobilesubstrate
-Filename: deb/com.rov3r.ytmusicplus_1.3_iphoneos-arm.deb
-Size: 4304
-MD5sum: 9eaa2d8db8ce0775a45eed72f40e2341
-SHA1: e6fc1d27f9ad49ecbcb1a01819f7cea511311475
-SHA256: 587c5b88c4d2e06906bae4932ad6e51f48b4f7aa1765af096a3c25333a50925b
+Filename: deb/com.rov3r.ytmusicplus_1.3.1_iphoneos-arm.deb
+Size: 5158
+MD5sum: 47ad83a71e1561335b308469122fed3b
+SHA1: 3d740598236725ec90caad7e2232ef029c8d2d85
+SHA256: 5d9c1b2030ba5f5193bed9b381818ad7b4bbe6d28ace47673cd3df836152f216
 Section: Tweaks
-Description: Enable background playback, and block ads!
+Description: (YouTube Music) Enable background playback, block ads, audio only and more!
 Author: Rov3r
 Depiction: https://rov3r.github.io/depiction/com.rov3r.ytmusicplus/index.html
 Name: YTMusicPlus
-
-Package: com.rov3r.ytwatchplus
-Version: 1.3
-Architecture: iphoneos-arm
-Maintainer: Rov3r <rov3r@me.com>
-Installed-Size: 120
-Depends: mobilesubstrate
-Filename: deb/com.rov3r.ytwatchplus_1.3_iphoneos-arm.deb
-Size: 2850
-MD5sum: 694af7e7328db9c6d7cadf5a2c163166
-SHA1: 89579f263fdb76f67e0d326ebe3d4e79bd58a087
-SHA256: f43f22119aa6f049c7ae96329d87aec25917c4511b4af46489c211a02190ca76
-Section: Tweaks
-Description: Disables Ads, Enables Background Playback. Works on the latest version as of July 8, 2018.
-Author: Rov3r
-Name: YTWatchPlus
 
 Package: com.yourepo.rov3r.dockxiforios891011
 Version: 1.1.0
@@ -243,20 +179,6 @@ Section: Tweaks
 Description: iOS 11 Dock Style For iOS Devices. (The only difference between this and the one on BigBoss is this one actually has less bugs.)
 Author: XCXiao <958169971@qq.com>
 Name: DockXI For iOS8/9/10/11
-
-Package: com.yourepo.rov3r.supporttheunsupported
-Version: 1.1
-Architecture: iphoneos-arm
-Depends: mobilesubstrate
-Filename: deb/com.yourepo.rov3r.supporttheunsupported_1.1.deb
-Size: 3318
-MD5sum: e99182ca9b7cd750a1878d9b6d17f537
-SHA1: 174f763f7046823b75e7552aa2e3508819ce2bf9
-SHA256: 35b213d8cedfa495325b497b31fa0ad67969d87add40c3ab0cc1078837112f1a
-Section: System
-Description: Allows iPhones to use “unsupported” accessories. Works on iOS 7 - 11.
-Author: Tony Kraft <rov3r@icloud.com>
-Name: SupportTheUnsupported
 
 Package: com.zidapi.disableios11sspreview
 Version: 1.1
