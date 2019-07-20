@@ -1,33 +1,195 @@
-%hook AdDownloader
+%hook ANSMetadata
+- (bool)computeIsJailbroken {
+    return 0;
+} 
+%end
+
+%hook ANSMetadata
+- (bool)isJailbroken {
+    return 0;
+} 
+%end
+
+%hook SoundCloudMockAdsRequestPermitting
 - (bool)shouldRequestAds {
     return 0;
 } 
 %end
 
-%hook SCLMoatBridge
-- (int)hasNativeAds {
+%hook DownloadQueue
+- (bool)wifiRequered {
     return 0;
 } 
 %end
 
-%hook SCLMoatBridge
-- (void)setHasNativeAds:(int)arg1 {
+%hook DownloadQueue
+- (void)setWifiRequered:(bool)arg1 {
     arg1 = 0;
     %orig;
 } 
 %end
 
-%hook SCLMoatBridge
-- (id)initWithWebView:(id)arg1 forNativeAds:(bool)arg2 {
-    arg2 = 0;
-    return %orig;
+%hook UserLikesToolbarCell
+- (void)setOfflineButtonHidden:(bool)arg1 {
+    arg1 = 0;
+    %orig;
 } 
 %end
 
-%hook SCLMoatUIWebViewBridge
-- (id)initWithWebView:(id)arg1 forNativeAds:(bool)arg2 {
-    arg2 = 0;
-    return %orig;
+%hook PlaylistEngagementView
+- (void)setSaveOfflineHidden:(bool)arg1 {
+    arg1 = 0;
+    %orig;
+} 
+%end
+
+%hook PlaylistEngagementReusableView
+- (void)setSaveOfflineHidden:(bool)arg1 {
+    arg1 = 0;
+    %orig;
+} 
+%end
+
+%hook UserLikesToolbarCellPresenter
+- (bool)shouldShowSaveOfflineButton {
+    return 0;
+} 
+%end
+
+%hook URLServicePresenterOfflineSettings
+- (bool)isAuthenticationRequired {
+    return 0;
+} 
+%end
+
+%hook FeedPlayableItem
+- (bool)canSyncOffline {
+    return 1;
+} 
+%end
+
+%hook SoundCloudPlaylistScreenPlaylist
+- (bool)canSyncOffline {
+    return 1;
+} 
+%end
+
+%hook OfflineSyncConfigurationActionHandler
+- (void)updateCollectionAvailableOffline:(bool)arg1 {
+    arg1 = 1;
+    %orig;
+} 
+%end
+
+%hook OfflineSyncConfigurationData
+- (bool)collectionAvailableOffline {
+    return 1;
+} 
+%end
+
+%hook OfflineModuleUserConfigDataSource
+- (void)storeCollectionAvailableOffline:(bool)arg1 syncLikesEnabled:(bool)arg2 {
+    arg1 = 1;
+    arg2 = 1;
+    %orig;
+} 
+%end
+
+%hook OfflineModuleUserConfigDataSource
+- (void)storeCollectionAvailableOffline:(bool)arg1 {
+    arg1 = 1;
+    %orig;
+} 
+%end
+
+%hook OfflineSyncConfig
+- (bool)collectionAvailableOffline {
+    return 1;
+} 
+%end
+
+%hook OfflineSyncProgressObserver
+- (bool)shouldUpdateProgress {
+    return 1;
+} 
+%end
+
+%hook OfflineSyncController
+- (bool)isDownloadingSuspended {
+    return 0;
+} 
+%end
+
+%hook OfflineUserConfig
+- (void)setCollectionAvailableOffline:(bool)arg1 {
+    arg1 = 1;
+    %orig;
+} 
+%end
+
+%hook ForegroundDeviceManagementHandler
+- (bool)offlineSyncSubscriptionHasExpired {
+    return 0;
+} 
+%end
+
+%hook OfflineSyncConfigurationData
+- (bool)isHighQuality {
+    return 1;
+} 
+%end
+
+%hook OfflineSyncConfigurationDataSource
+- (bool)shouldShowAnySection {
+    return 1;
+} 
+%end
+
+%hook OfflineSyncConfigurationActionHandler
+- (bool)userCanBeUpsoldHighQuality {
+    return 0;
+} 
+%end
+
+%hook OfflineCollectionButtonPresenter
+- (bool)shouldUseNewLibraryStyle {
+    return 1;
+} 
+%end
+
+%hook DownloadQueue
+- (bool)isSuspended {
+    return 0;
+} 
+%end
+
+%hook TrackDownloader
+- (bool)taskCanBeTreatedAsSuccessful:(id)arg1 {
+    return 1;
+} 
+%end
+
+%hook SDWebImageDownloader
+- (bool)shouldDecompressImages {
+    return 0;
+} 
+%end
+
+%hook SoundCloudABManager
+- (bool)isLibraryDownloadsEnabled {
+    return 1;
+} 
+%end
+
+%hook AnalyticsVisualImpressionObserver
+- (bool)imageDownloadHasErrored {
+    return 0;
+} 
+%end
+
+%hook AdDownloader
+- (bool)shouldRequestAds {
+    return 0;
 } 
 %end
 
@@ -37,96 +199,73 @@
 } 
 %end
 
-%hook InlayAdRequestController
-- (void)setStreamWithAds:(id)arg1 {
-    arg1 = NULL;
-    %orig;
-} 
-%end
-
-%hook FeedPlayablesService
-- (void)setInlayAds:(id)arg1 {
-    arg1 = NULL;
-    %orig;
-} 
-%end
-
-%hook Environment
-- (double)adSkipThreshold {
+%hook SDWebImageDownloaderOperation
+- (bool)shouldDecompressImages {
     return 0;
 } 
 %end
 
-%hook AudioAdSkipPreventedAlert
-- (double)timeUntilSkip {
+%hook SDImageCacheConfig
+- (bool)shouldDecompressImages {
     return 0;
 } 
 %end
 
-%hook VideoAd
-- (id)initWithUrn:(id)arg1 duration:(double)arg2 skippable:(bool)arg3 videoAdSources:(id)arg4 trackingState:(id)arg5 videoAdSelector:(id)arg6 adTagger:(id)arg7 ctaText:(id)arg8 videoTitle:(id)arg9 monetizableTrack:(id)arg10 frequencyCapDuration:(double)arg11 {
-    arg2 = 0;
-    arg3 = 1;
-    arg11 = 0;
-    return %orig;
-} 
-%end
-
-%hook AnalyticsAdSelectionTagger
-- (void)setHasTrackedAdSelection:(bool)arg1 {
-    arg1 = 0;
-    %orig;
-} 
-%end
-
-%hook AnalyticsAdSelectionTagger
-- (void)setCurrentAd:(id)arg1 {
-    arg1 = NULL;
-    %orig;
-} 
-%end
-
-%hook AdStorage
-- (void)storeAd:(id)arg1 forTrack:(id)arg2 {
-    arg1 = NULL;
-    %orig;
-} 
-%end
-
-%hook AdStorage
-- (void)setFrequencyCapDuration:(double)arg1 {
-    arg1 = 0;
-    %orig;
-} 
-%end
-
-%hook AdStorage
-- (double)frequencyCapDuration {
-    return 0;
-} 
-%end
-
-%hook AdSkipCalculator
-- (double)skipCounterSecondsLeftForAd:(id)arg1 withProgress:(double)arg2 {
-    return 0;
-} 
-%end
-
-%hook AdSkipCalculator
-- (double)skipThresholdForAd:(id)arg1 {
-    return 0;
-} 
-%end
-
-%hook AdSkipCalculator
-- (bool)shouldEnableSkipForItem:(id)arg1 withProgress:(double)arg2 {
+%hook SDWebImageDownloaderOperation
+- (bool)shouldContinueWhenAppEntersBackground {
     return 1;
 } 
 %end
 
-%hook AdSelectionLogic
-- (bool)shouldInsertVideoAd:(id)arg1 {
+%hook OfflineBaseService
+- (bool)isOfflineSyncFeatureEnabled {
+    return 1;
+} 
+%end
+
+%hook UserFeaturesService
+- (bool)isOfflineSyncFeatureEnabled {
+    return 1;
+} 
+%end
+
+%hook OfflineSyncConfigurationDataSource
+- (bool)isOfflineSyncFeatureEnabled {
+    return 1;
+} 
+%end
+
+%hook TrackMetaDataEntity
+- (bool)isOfflineSyncFeatureEnabled {
+    return 1;
+} 
+%end
+
+%hook PlaybackStreamingQualitySettingViewController
+- (void)viewDidAppear:(bool)arg1 {
+    arg1 = 1;
+    %orig;
+} 
+%end
+
+%hook SCDeviceManager
+- (bool)isDeviceAuthorized {
+    return 1;
+} 
+%end
+
+%hook PaymentsPlanWrapper
+- (bool)isFree {
     return 0;
 } 
 %end
+
+%ctor {
+    %init(SoundCloudMockAdsRequestPermitting = objc_getClass("SoundCloud.MockAdsRequestPermitting"),
+        SoundCloudPlaylistScreenPlaylist = objc_getClass("SoundCloud.PlaylistScreenPlaylist"),
+        SoundCloudABManager = objc_getClass("SoundCloud.ABManager"),
+        PlaybackStreamingQualitySettingViewController = objc_getClass("Playback.StreamingQualitySettingViewController"),
+        PaymentsPlanWrapper = objc_getClass("Payments.PlanWrapper"));
+
+}
 
