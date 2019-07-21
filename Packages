@@ -115,19 +115,20 @@ Author: Rov3r
 Name: SCMusicPlus
 
 Package: com.rov3r.stravaplus
-Version: 0.4.1
+Version: 0.4.2
 Architecture: iphoneos-arm
 Maintainer: Rov3r <rov3r@me.com>
 Installed-Size: 104
 Depends: mobilesubstrate
-Filename: deb/com.rov3r.stravaplus_0.4.1_iphoneos-arm.deb
-Size: 4250
-MD5sum: aba9e7f9e618b1ef6eb76947abee2c96
-SHA1: 3dfed0aed5f360bd439c75e7dbe996aac4a2f276
-SHA256: 556e980bacadeb5bba247e3ffe0cfce5fbe1ddf7dd00151ab1548f0061a26b69
+Filename: deb/com.rov3r.stravaplus_0.4.2_iphoneos-arm.deb
+Size: 4288
+MD5sum: eb3b6cfa28c4a0baa05f85b065757198
+SHA1: 44644daaed21d55222db81d60667d34cddde81f3
+SHA256: f999e8023a1983c825f6b95685094a5b2e969bfa7908af445f425c8452e8c1f1
 Section: Tweaks
-Description: Premium (and some Summit) features unlocked! [Works on v92.0.0] (And A12)
+Description: Premium (and some Summit) features unlocked! [Works on v107.0.0] (And A12)
 Author: Rov3r
+Depiction: https://rov3r.github.io/depiction/com.rov3r.stravaplus/index.html
 Name: StravaPlus
 
 Package: com.rov3r.tumblrplusplus
@@ -149,18 +150,18 @@ Depiction: https://rov3r.github.io/rov3r.com_files/tumblr++/tumblr++.html
 Name: Tumblr ++
 
 Package: com.rov3r.ytmusicplus
-Version: 1.3.1
+Version: 1.3
 Architecture: iphoneos-arm
 Maintainer: Rov3r <rov3r@me.com>
 Installed-Size: 104
 Depends: mobilesubstrate
-Filename: deb/com.rov3r.ytmusicplus_1.3.1_iphoneos-arm.deb
-Size: 5158
-MD5sum: 47ad83a71e1561335b308469122fed3b
-SHA1: 3d740598236725ec90caad7e2232ef029c8d2d85
-SHA256: 5d9c1b2030ba5f5193bed9b381818ad7b4bbe6d28ace47673cd3df836152f216
+Filename: deb/com.rov3r.ytmusicplus_1.3_iphoneos-arm.deb
+Size: 4304
+MD5sum: 9eaa2d8db8ce0775a45eed72f40e2341
+SHA1: e6fc1d27f9ad49ecbcb1a01819f7cea511311475
+SHA256: 587c5b88c4d2e06906bae4932ad6e51f48b4f7aa1765af096a3c25333a50925b
 Section: Tweaks
-Description: (YouTube Music) Enable background playback, block ads, audio only and more!
+Description: Enable background playback, and block ads!
 Author: Rov3r
 Depiction: https://rov3r.github.io/depiction/com.rov3r.ytmusicplus/index.html
 Name: YTMusicPlus
