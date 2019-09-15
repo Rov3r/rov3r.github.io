@@ -1,0 +1,10 @@
+Package: com.rov3r.blockersspy
+Name: Blockers Spy Patch
+Author: Rov3r <rov3r@me.com>
+Description: Block Ads on Blockers Spy app
+Depends: mobilesubstrate
+Maintainer: Rov3r <rov3r@me.com>
+Architecture: iphoneos-arm
+Section: Adblocker
+Version: 1.0
+Installed-Size: 104
