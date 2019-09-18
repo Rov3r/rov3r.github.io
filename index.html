@@ -25,31 +25,6 @@
 
 <style>
 
-@font-face {
-  font-family: OregonLDO;
-  src: url('rov3r.com_files/fonts/OregonLDO.ttf');
-}
-
-@font-face {
-  font-family: Steinerlight;
-  src: url('rov3r.com_files/fonts/Steinerlight.ttf');
-}
-
-@font-face {
-  font-family: FallingSky;
-  src: url('rov3r.com_files/fonts/FallingSky.otf');
-}
-
-@font-face {
-  font-family: QuicksandBookItalic;
-  src: url('rov3r.com_files/fonts/QuicksandBookOblique.otf');
-}
-
-@font-face {
-  font-family: QuicksandBook;
-  src: url('rov3r.com_files/fonts/QuicksandBook.otf');
-}
-
 * {box-sizing: border-box}
 
 head, html {
@@ -60,7 +35,7 @@ head, html {
 body, html {
     height: 100%;
     margin: 0;
-    font-family: Arial;
+    font-family: Ubuntu;
 }
 
 /* Style tab links */
@@ -73,12 +48,12 @@ body, html {
     cursor: pointer;
     padding: 14px 16px;
     font-size: 17px;
-    font-family: FallingSky;
+    font-family: Ubuntu;
     width: 25%;
 }
 
 .tableContent {
-  font-family: QuicksandBookItalic;
+  font-family: Ubuntu;
 }
 
 .footContent {
@@ -143,6 +118,8 @@ head {
 <center>
   <img src="images/rov3r_wide.png" alt="Rov3r Repo"  width="40%" height="40%">
 </center>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+
 </head>
 <body>
 <button class="tablink" onclick="openPage('Home', this, 'gray')" id="defaultOpen">Home</button>
@@ -152,59 +129,59 @@ head {
 <center>
 <div id="Home" class="tabcontent">
   <h3>
-    <font size="6"> Home</p></font>
+    <font size="6" style="font-family: 'Ubuntu', sans-serif;">Home</p></font>
   </h3>
-  <p>Always working on something new, probably behind closed doors. Try adding this site to Cydia!</p>
+  <p style="font-family: 'Ubuntu', sans-serif;">Always working on something new, probably behind closed doors. Try adding this site to Cydia!</p>
 </div>
 
 <div id="Projects" class="tabcontent">
 <h3>
-  <font size="6">Projects</p></font>
+  <font size="6" style="font-family: 'Ubuntu', sans-serif;">Projects</p></font>
 </h3>
   <center>
-    <table style="left"; class="tableContent"; cellspacing="21px"; width=100%;>
+    <table style="left"; class="tableContent"; cellspacing="21px"; width=100%; style="font-family: 'Ubuntu', sans-serif;">
       <tr>
-        <th><style="font-size:4;"><ins>Name</ins></font></th>
-        <th><style="font-size:4;"><ins>Description</ins></font></th>
-        <th><style="font-size:4;"><ins>Link</ins></font></th>
-        <th><style="font-size:4;"><ins>Last Updated</ins></font></th>
+        <th><ins>Name</ins></th>
+        <th><ins>Description</ins></th>
+        <th><ins>Link</ins><</th>
+        <th><ins>Last Updated</ins></th>
       </tr>
       <tr>
         <td><b>SnapLoader</b></td>
         <td>Allows Snapchat stories to load while jailbroken on Electra. (Discontinued April 2018, due to Snapchat no longer disabling stories)</td>
-        <td><a href="https://github.com/Rov3r/SnapLoader" class="button">SnapLoader GitHub</a></td>
+        <td><a href="https://github.com/Rov3r/SnapLoader" class="button" style="font-family: 'Ubuntu', sans-serif;">SnapLoader GitHub</a></td>
         <td>19 April 2018</td>
       </tr>
       <tr>
         <td><b>Xist</b></td>
         <td>T.B.A.</td>
-        <td><a href="https://github.com/Rov3r/Xist" class="button">Xist GitHub</a></td>
+        <td><a href="https://github.com/Rov3r/Xist" class="button" style="font-family: 'Ubuntu', sans-serif;">Xist GitHub</a></td>
         <td>14 April 2018</td>
       </tr>
       <tr>
         <td><b>DebShow</b></td>
         <td>A safe resource for only iOS 11.0 - 11.1.2 compatible jailbreak tweaks - (Discontinued February 2018, due to Electra1112 being released)</td>
-        <td><a href="https://rov3r.github.io/debshow" class="button">DebShow Website</a></td>
+        <td><a href="https://rov3r.github.io/debshow" class="button" style="font-family: 'Ubuntu', sans-serif;">DebShow Website</a></td>
         <td>13 February 2018</td>
       </tr>
     </table>
     </center>
 </div>
 
-<div id="CydiaRepo" class="tabcontent" line-height: "200%">
+<div id="CydiaRepo" class="tabcontent" line-height: "200%" style="font-family: 'Ubuntu', sans-serif;">
   <h3>
-    <font size="6">Cydia Repo</p></font>
+    <font size="6" style="font-family: 'Ubuntu', sans-serif;">Cydia Repo</p></font>
   </h3>
-  <p>Simply click the button and Cydia will open!</p>
-  <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://rov3r.github.io" class="button">Tap Here to Add My Repo</a>
+  <p style="text-align: center; font-family: 'Ubuntu', sans-serif;">Simply click the button and Cydia will open!</p>
+  <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://rov3r.github.io" class="button" style="font-family: 'Ubuntu', sans-serif;">Tap Here to Add My Repo</a>
 </div>
 
 <div id="ContactAbout" class="tabcontent">
   <h3>
-    <font size="6">Contact/About</font>
+    <font size="6" style="font-family: 'Ubuntu', sans-serif;">Contact/About</font>
   </h3>
-  <p style="text-align: left; font-family: QuicksandBook;"><b>Jared Gardner (Developer)</b></p>
-    <ul style="text-align: left;">
+  <p style="text-align: left; font-family: 'Ubuntu', sans-serif;"><b>Jared Gardner (Developer)</b></p>
+    <ul style="text-align: left; font-family: 'Ubuntu', sans-serif;">
       <li>University of South Alabama, Computer Science BS, Class of 2021.</li>
       <li>Moderator for <a href="https://getdelta.co/">Flex Cloud</a></li>
       <li>Interested in iOS Development, ARM exploitation, and Website Development</li>
@@ -212,8 +189,8 @@ head {
       <li>Tabs, not spaces.</li>
     </ul>
   <br></br>
-    <p style="text-align: left; font-family: QuicksandBook;"><b>Contact Me</b></p>
-      <ul style="text-align: left;">
+    <p style="text-align: left; font-family: 'Ubuntu', sans-serif;"><b>Contact Me</b></p>
+      <ul style="text-align: left; font-family: 'Ubuntu', sans-serif;">
         <li><a href="https://twitter.com/Rov3rRepo">Twitter</a> (probably the quickest way to get a response)</li>
         <li><a href="mailto:rov3r@icloud.com">Email</a></li>
       </ul>
@@ -248,8 +225,8 @@ document.getElementById("defaultOpen").click();
   <br></br>
   <br></br>
   <br></br>
-  <div id="footText" class="footContent">For tutorials, news, updates, articles, etc., check out my website<br></br>
-    <a href="https://jaredsiphonehelp.weebly.com/" class="button">Jared's iPhone Help</a>
+  <div id="footText" class="footContent" style="font-family: 'Ubuntu', sans-serif;">For tutorials, news, updates, articles, etc., check out my website<br></br>
+    <a href="https://jaredsiphonehelp.weebly.com/" class="button" style="font-family: 'Ubuntu', sans-serif;">Jared's iPhone Help</a>
   </div>
 </foot>
 </html>
