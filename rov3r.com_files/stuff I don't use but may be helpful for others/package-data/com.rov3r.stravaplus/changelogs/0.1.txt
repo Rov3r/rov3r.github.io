@@ -1,1 +1,0 @@
-This is a working version of SCOthman that I am uploading only for the purpose of learning.

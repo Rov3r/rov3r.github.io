@@ -52,7 +52,41 @@ body, html {
 
 .tableContent {
   font-family: Ubuntu;
+  border-collapse: collapse;
+  width: 100%;
+  line-height: 150%;
 }
+
+/* These are all for the table on the Projects tab*/
+#projectsTable {
+font-family: "Ubuntu", sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+
+#projectsTable td, #projectsTable th {
+border: 1px solid #ddd;
+padding: 8px;
+}
+
+#projectsTable tr:nth-child(even){background-color: #d6f0ff;}
+
+#projectsTable tr:hover {background-color: #ddd;}
+
+#projectsTable th {
+padding-top: 12px;
+padding-bottom: 12px;
+padding: 12px;
+text-align: center;
+background-color: #96d9ff;
+color: black;
+white-space:nowrap;
+}
+
+#projectsTable td {
+text-align: center;
+}
+/* This is the end of the table styling block */
 
 .footContent {
   padding: 50px;
@@ -76,7 +110,7 @@ body, html {
     width: 80%;
     font-family: Quicksand;
     text-align: left;
-    line-height: 200%;
+    line-height: 110%;
 }
 
 .tabcontentlotsoftext {
@@ -104,8 +138,8 @@ body, html {
 
 #Home {background-color: #e5e5ff;}
 #Projects {background-color: #e5e5ff;}
-#CydiaRepo {background-color: #e5e5ff;}
-#ContactAbout {background-color: #e5e5ff;}
+#Repo {background-color: #e5e5ff;}
+#About {background-color: #e5e5ff;}
 #footText {background-color: #e5e5ff;}
 
 </style>
@@ -118,77 +152,76 @@ body, html {
 <body>
 <button class="tablink" onclick="openPage('Home', this, 'gray')" id="defaultOpen">Home</button>
 <button class="tablink" onclick="openPage('Projects', this, 'gray')">Projects</button>
-<button class="tablink" onclick="openPage('CydiaRepo', this, 'gray')">Cydia Repo</button>
-<button class="tablink" onclick="openPage('ContactAbout', this, 'gray')">Contact/About</button>
+<button class="tablink" onclick="openPage('Repo', this, 'gray')">Repo</button>
+<button class="tablink" onclick="openPage('About', this, 'gray')">About</button>
 <center>
 <div id="Home" class="tabcontent">
   <h3>
     <font size="6" style="font-family: 'Ubuntu', sans-serif;">Home</p></font>
   </h3>
-  <p style="font-family: 'Ubuntu', sans-serif;">Welcome to my main site. You can find all of my projects here, as well as on my github.</p>
+  <p style="font-family: 'Ubuntu', sans-serif; line-height: 200%;">Welcome to my main site. You can find all of my projects here, as well as on my github.</p>
   <p></p>
-  <p style="font-family: 'Ubuntu', sans-serif;">You can <a style="color:#1D92EF;" href="add-to-cydia.html">add this site on Cydia</a>, too.</p>
+  <p style="font-family: 'Ubuntu', sans-serif; line-height: 200%;">You can <a style="color:#1D92EF; text-decoration:none;" href="add-rov3r-source.html">add this site on your favorite package manager</a>, too.</p>
 </div>
 
 <div id="Projects" class="tabcontent">
-<h3>
-  <font size="6" style="font-family: 'Ubuntu', sans-serif;">Projects</p></font>
-</h3>
-  <center>
-    <table style="left"; class="tableContent"; cellspacing="21px"; width=100%; style="font-family: 'Ubuntu', sans-serif;">
-      <tr>
-        <th><ins>Name</ins></th>
-        <th><ins>Description</ins></th>
-        <th><ins>Link</ins></th>
-        <th><ins>Last Updated</ins></th>
-      </tr>
-      <tr>
-        <td><b>SnapLoader</b></td>
-        <td>Allows Snapchat stories to load while jailbroken on Electra. (Discontinued April 2018, due to Snapchat no longer disabling stories)</td>
-        <td><a href="https://github.com/Rov3r/SnapLoader" class="button" style="font-family: 'Ubuntu', sans-serif;">SnapLoader GitHub</a></td>
-        <td>19 April 2018</td>
-      </tr>
-      <tr>
-        <td><b>Xist</b></td>
-        <td>T.B.A.</td>
-        <td><a href="https://github.com/Rov3r/Xist" class="button" style="font-family: 'Ubuntu', sans-serif;">Xist GitHub</a></td>
-        <td>14 April 2018</td>
-      </tr>
-      <tr>
-        <td><b>DebShow</b></td>
-        <td>A safe resource for only iOS 11.0 - 11.1.2 compatible jailbreak tweaks - (Discontinued February 2018, due to Electra1112 being released)</td>
-        <td><a href="https://rov3r.github.io/debshow" class="button" style="font-family: 'Ubuntu', sans-serif;">DebShow Website</a></td>
-        <td>13 February 2018</td>
-      </tr>
-    </table>
-    </center>
-</div>
-
-<div id="CydiaRepo" class="tabcontent" line-height: "200%" style="font-family: 'Ubuntu', sans-serif;">
   <h3>
-    <font size="6" style="font-family: 'Ubuntu', sans-serif;">Cydia Repo</p></font>
+    <font size="6" style="font-family: 'Ubuntu', sans-serif;">Projects</p></font>
   </h3>
-  <p style="font-family: 'Ubuntu', sans-serif;">Simply click the button and Cydia will open!</p>
-  <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://rov3r.github.io" class="button" style="font-family: 'Ubuntu', sans-serif;">Tap Here to Add My Repo</a>
+  <table id="projectsTable">
+    <tr>
+      <th>Project</th>
+      <th>Description</th>
+      <th>Link</th>
+      <th>Last Updated</th>
+    </tr>
+    <tr>
+      <td>DebShow</td>
+      <td style="text-align: left;">A resource for tweaks made to work on iOS 11.1.2 before Electra1112's official release.</td>
+      <td><a href="https://rov3r.github.io/debshow" class="button" style="font-family: 'Ubuntu', sans-serif;">DebShow Website</a></td>
+      <td>2/13/2018</td>
+    </tr>
+  </table>
 </div>
 
-<div id="ContactAbout" class="tabcontent">
+<div id="Repo" class="tabcontent" line-height: "200%" style="font-family: 'Ubuntu', sans-serif;">
   <h3>
-    <font size="6" style="font-family: 'Ubuntu', sans-serif;">Contact/About</font>
+    <font size="6" style="font-family: 'Ubuntu', sans-serif;">Repo</p></font>
+  </h3>
+  <p style="font-family: 'Ubuntu', sans-serif;">Simply tap which package manager you'd like to add my repository.</p>
+    <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://rov3r.github.io" class="button" style="font-family: 'Ubuntu', sans-serif;">Add to Cydia</a>
+    <a href="zbra://sources/add/https://rov3r.github.io" class="button" style="font-family: 'Ubuntu', sans-serif;">Add to Zebra</a>
+    <a href="sileo://source/https://rov3r.github.io" class="button" style="font-family: 'Ubuntu', sans-serif;">Add to Sileo</a>
+  <br></br>
+  <br></br>
+  <br></br>
+  <br></br>
+  <br></br>
+  <br></br>
+  <br></br>
+  <br></br>
+  <h4><i>What is a repository?</i></h4>
+    <p style="font-family: 'Ubuntu', sans-serif;">This repository is for jailbroken iOS devices to install my tweaks. I will be working on depiction pages for my tweaks and
+    once I finish making them look good I'll figure out how I want to implement them on the home page.</p>
+</div>
+
+<div id="About" class="tabcontent">
+  <h3>
+    <font size="6" style="font-family: 'Ubuntu', sans-serif;">About</font>
   </h3>
   <p style="text-align: left; font-family: 'Ubuntu', sans-serif;"><b>Jared Gardner (Developer)</b></p>
-    <ul style="text-align: left; font-family: 'Ubuntu', sans-serif;">
+    <ul style="text-align: left; font-family: 'Ubuntu', sans-serif; line-height: 200%;">
       <li>University of South Alabama, Information Technology BS, Class of 2022.</li>
-      <li>Moderator for <b><a href="https://getdelta.co/" style="color:#1D92EF;">Flex Cloud</a></b></li>
+      <li>Moderator for <b><a href="https://getdelta.co/" style="color:#1D92EF; text-decoration:none;">Flex Cloud</a></b></li>
       <li>Interested in iOS and Web Development</li>
       <li>Developed projects for jailbroken iOS Devices since 2014.</li>
       <li>Building websites since 2013.</li>
     </ul>
   <br></br>
     <p style="text-align: left; font-family: 'Ubuntu', sans-serif;"><b>Contact Me</b></p>
-      <ul style="text-align: left; font-family: 'Ubuntu', sans-serif;">
-        <li><a href="https://twitter.com/Rov3rRepo" style="color:#1D92EF;">Twitter</a> (probably the quickest way to get a response)</li>
-        <li><a href="mailto:rov3r@icloud.com" style="color:#1D92EF;">Email</a></li>
+      <ul style="text-align: left; font-family: 'Ubuntu', sans-serif; line-height: 160%;">
+        <li><a href="https://twitter.com/Rov3rRepo" style="color:#1D92EF; text-decoration:none;"><b>Twitter</b></a> (probably the quickest way to get a response)</li>
+        <li><a href="mailto:rov3r@icloud.com" style="color:#1D92EF; text-decoration:none;"><b>Email</b></a></li>
       </ul>
 </div>
 <script>
