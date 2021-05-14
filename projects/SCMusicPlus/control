@@ -1,9 +1,31 @@
 Package: com.rov3r.scmusicplus
-Name: SCMusicPlus
+Name: SCMusicPlus (for SoundCloud)
 Author: Rov3r
-Description: For SoundCloud: Disable ads, enable high quality streaming and offline downloading!
+Description: Enhance your SoundCloud experience!
+ - Remove Toolbar Go+ Upsell Button
+ - Remove Navigation Upsell button
+ - Reduce startup load by disabling Analytics and Chrome Cast tasks
+
+ This tweak is now merged with my Flex patch called "StopUpsellingMe". The code is identical.
+
+           —————————————————————
+
+ Changelog:
+ Version 2.1.0
+ * Removed all upsell branding
+ * Added disabled startup tasks
+ * Merged with SCMusicPlus 2.0 concept (adblocking methods changed)
+
+ Version 0.0.1 — Initial release
+ * Remove Toolbar Go+ Upsell Button
+
+           —————————————————————
+
+ Developed for SoundCloud version 5.125.0
+ Released: 5/09/2021
+ Message me on Twitter for quick support @Rov3rRepo
 Depends: mobilesubstrate
 Maintainer: Rov3r <rov3r@icloud.com>
 Architecture: iphoneos-arm
 Section: Tweaks
-Version: 2.0
+Version: 2.1.0
