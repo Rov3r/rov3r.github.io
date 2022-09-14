@@ -1,29 +1,29 @@
 %hook YTIPlayerResponse
-- (bool)isMonetized {
+-(bool)isMonetized {
     return 0;
 }
 %end
 
 %hook YTSingleVideoMediaData
-- (bool)isPlayableInBackground {
+-(bool)isPlayableInBackground {
     return 1;
 }
 %end
 
 %hook YTPlaybackData
-- (bool)isPlayableInBackground {
+-(bool)isPlayableInBackground {
     return 1;
 }
 %end
 
 %hook YTSingleVideoController
-- (bool)isCurrentlyBackgroundable {
+-(bool)isCurrentlyBackgroundable {
     return 1;
 }
 %end
 
 %hook YTLocalPlaybackController
-- (bool)isPlaybackBackgroundable {
+-(bool)isPlaybackBackgroundable {
     return 1;
 }
 %end

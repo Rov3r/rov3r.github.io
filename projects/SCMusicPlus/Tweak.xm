@@ -1,50 +1,47 @@
-#import <UIKit/UIKit.h>
-
 %hook TabBarDataSource
--  (bool)shouldDisplayUpsellTab {
+-(bool)shouldDisplayUpsellTab {
     return 0;
 }
 %end
 
 %hook StartupRegisterAnalytics
-+  (bool)shouldDispatchToMainThread {
++(bool)shouldDispatchToMainThread {
     return 0;
 }
 %end
 
 %hook StartupConfigureGoogleCast
-+  (bool)shouldDispatchToMainThread {
++(bool)shouldDispatchToMainThread {
     return 0;
 }
 %end
 
 %hook StartupGoogleCastConnectionHandler
-+  (bool)shouldDispatchToMainThread {
++(bool)shouldDispatchToMainThread {
     return 0;
 }
 %end
 
 %hook StartupLegacyAppUpgrade
-+  (bool)shouldDispatchToMainThread {
++(bool)shouldDispatchToMainThread {
     return 0;
 }
 %end
 
 %hook UpsellManager
--  (bool)shouldUpsell {
+-(bool)shouldUpsell {
     return 0;
 }
 %end
 
 %hook UpsellManager
--  (bool)canNotUpsell {
+-(bool)canNotUpsell {
     return 1;
 }
 %end
 
 %hook PlayQueueManagerFactory
--  (bool)shouldIncludeAds {
+-(bool)shouldIncludeAds {
     return 0;
 }
 %end
-

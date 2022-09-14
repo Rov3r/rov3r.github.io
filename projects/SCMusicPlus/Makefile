@@ -1,3 +1,5 @@
+export THEOS = /Users/rov3r/theos
+
 include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = SCMusicPlus
