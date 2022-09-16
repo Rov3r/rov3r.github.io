@@ -49,33 +49,30 @@ Author: Rov3r
 Name: BetterSpotify
 
 Package: com.rov3r.scmusicplus
-Version: 2.1.0
+Version: 2.2.0
 Architecture: iphoneos-arm
 Maintainer: Rov3r <rov3r@icloud.com>
 Installed-Size: 216
 Depends: mobilesubstrate
-Filename: ./deb/com.rov3r.scmusicplus_2.1.0_iphoneos-arm.deb
-Size: 4634
-MD5sum: de3edc3e589d32e4bbe43be2c7d22e63
-SHA1: 5ef7a46f565bff1b577ab9bb16f08bdf55c27ea9
-SHA256: 0c6debea21e012cf4909362a376f9bb6af1081605852cd74fa8a83f6405f29ca
+Filename: ./deb/com.rov3r.scmusicplus_2.2.0_iphoneos-arm.deb
+Size: 4576
+MD5sum: d08b1806a228670c190fdf190bf077f0
+SHA1: 16c597451cdf22bb918faa2f9b152995af0778a9
+SHA256: 81e834187062d1fc1e63c9959b97d425762ebd374ae84e16520b329d41c27da2
 Section: Tweaks
 Description: Enhance your SoundCloud experience!
- - Remove Toolbar Go+ Upsell Button
+ - Remove Go+ Upsell Button
  - Remove Navigation Upsell button
- - Reduce startup load by disabling Analytics and Chrome Cast tasks
- This tweak is now merged with my Flex patch called "StopUpsellingMe". The code is identical.
+ - Remove Ads
+ - Remove Promoted Playlists
            —————————————————————
- Changelog:
- Version 2.1.0
+ New in version 2.2.0:
+ * Support latest UI
  * Removed all upsell branding
- * Added disabled startup tasks
- * Merged with SCMusicPlus 2.0 concept (adblocking methods changed)
- Version 0.0.1 — Initial release
- * Remove Toolbar Go+ Upsell Button
+ * Removed the disabled startup tasks
            —————————————————————
- Developed for SoundCloud version 5.125.0
- Released: 5/09/2021
+ Developed for SoundCloud version 6.7.0
+ Released: 09/16/2022
  Message me on Twitter for quick support @Rov3rRepo
 Author: Rov3r
 Name: SCMusicPlus (for SoundCloud)
