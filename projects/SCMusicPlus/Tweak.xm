@@ -1,5 +1,3 @@
-//#import <UIKit/UIKit.h>
-
 %hook TabBarDataSource
 -(bool)shouldDisplayUpsellTab {
     return 0;
