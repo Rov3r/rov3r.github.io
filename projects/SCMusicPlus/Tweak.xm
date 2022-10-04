@@ -19,12 +19,14 @@
 %hook UpsellManager
 -(bool)shouldUpsellForPlaylist:(id)arg0 {
     return 0;
+    %orig;
 }
 %end
 
 %hook UpsellManager
 -(bool)shouldUpsellForTrack:(id)arg0 {
     return 0;
+    %orig;
 }
 %end
 

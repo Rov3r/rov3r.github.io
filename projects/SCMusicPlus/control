@@ -7,4 +7,4 @@ Depends: mobilesubstrate
 Maintainer: Rov3r <rov3r@icloud.com>
 Architecture: iphoneos-arm
 Section: Tweaks
-Version: 2.2.0
+Version: 2.2.1
