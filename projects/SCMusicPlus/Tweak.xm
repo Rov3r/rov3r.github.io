@@ -65,3 +65,10 @@
   return 0;
 }
 %end
+
+// Sideloaded Application sign in bypass
+%hook GTMAppAuthFetcherAuthorization
+-(bool)isMonetizable {
+  return 0;
+}
+%end

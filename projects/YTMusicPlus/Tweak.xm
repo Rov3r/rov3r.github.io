@@ -6,8 +6,8 @@
 %end
 
 %hook YTInlinePlaybackPlayerView
--(void)setAdPlaying:(bool)arg1 {
-    arg1 = 0;
+-(void)setAdPlaying:(bool)arg0 {
+    arg0 = 0;
     %orig;
 }
 %end
