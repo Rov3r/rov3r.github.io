@@ -1,4 +1,118 @@
 Package: com.rov3r.scmusicplus
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Rov3r <rov3r@me.com>
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: ./deb/com.rov3r.scmusicplus_1.0_iphoneos-arm.deb
+Size: 3902
+MD5sum: abd594691862bd2bee57a756651a1246
+SHA1: 4cc2049f38a2d9be614d77f5c77298e556b6cf5c
+SHA256: c8826369212c42d835b53751516990470782cc498d42a1a277536b8e1aaa8784
+Section: Tweaks
+Description: No Ads & Unlimited Skips for SoundCloud v5.32.1, credit @akasarx.
+Author: akasarx
+Name: SCMusicPlus
+
+Package: com.rov3r.scmusicplus
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Rov3r <rov3r@me.com>
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: ./deb/com.rov3r.scmusicplus_1.0.1_iphoneos-arm.deb
+Size: 3896
+MD5sum: b75f4038bcd9142be519e20966285562
+SHA1: 55b0bddbeec5e2a34436151cf264f86b2594942c
+SHA256: 6aec492ce8bae4c604eec6bed0d2b2fe014ae443ad4bed90009240cc98a533dd
+Section: Tweaks
+Description: No Ads & Unlimited Skips for SoundCloud v5.32.1, credit @akasarx.
+Author: akasarx
+Name: SCMusicPlus
+
+Package: com.rov3r.scmusicplus
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Rov3r <rov3r@icloud.com>
+Installed-Size: 104
+Depends: mobilesubstrate
+Filename: ./deb/com.rov3r.scmusicplus_2.0_iphoneos-arm.deb
+Size: 4658
+MD5sum: df5957a87e131c4931cb78da9370c48d
+SHA1: fcaa0c1861be1912857862674a2cc1c42abacd9e
+SHA256: 9f8730e586fb5a21df74a509cdb21f5c892e41fbb42e0de3c9e63b2a9bdc0cc0
+Section: Tweaks
+Description: For SoundCloud: Disable ads, enable high quality streaming and offline downloading!
+Author: Rov3r
+Name: SCMusicPlus
+
+Package: com.rov3r.scmusicplus
+Version: 2.1.0
+Architecture: iphoneos-arm
+Maintainer: Rov3r <rov3r@icloud.com>
+Installed-Size: 216
+Depends: mobilesubstrate
+Filename: ./deb/com.rov3r.scmusicplus_2.1.0_iphoneos-arm.deb
+Size: 4634
+MD5sum: de3edc3e589d32e4bbe43be2c7d22e63
+SHA1: 5ef7a46f565bff1b577ab9bb16f08bdf55c27ea9
+SHA256: 0c6debea21e012cf4909362a376f9bb6af1081605852cd74fa8a83f6405f29ca
+Section: Tweaks
+Description: Enhance your SoundCloud experience!
+ - Remove Toolbar Go+ Upsell Button
+ - Remove Navigation Upsell button
+ - Reduce startup load by disabling Analytics and Chrome Cast tasks
+ This tweak is now merged with my Flex patch called "StopUpsellingMe". The code is identical.
+           —————————————————————
+ Changelog:
+ Version 2.1.0
+ * Removed all upsell branding
+ * Added disabled startup tasks
+ * Merged with SCMusicPlus 2.0 concept (adblocking methods changed)
+ Version 0.0.1 — Initial release
+ * Remove Toolbar Go+ Upsell Button
+           —————————————————————
+ Developed for SoundCloud version 5.125.0
+ Released: 5/09/2021
+ Message me on Twitter for quick support @Rov3rRepo
+Author: Rov3r
+Name: SCMusicPlus (for SoundCloud)
+
+Package: com.rov3r.scmusicplus
+Version: 2.2.0
+Architecture: iphoneos-arm
+Maintainer: Rov3r <rov3r@icloud.com>
+Installed-Size: 216
+Depends: mobilesubstrate
+Filename: ./deb/com.rov3r.scmusicplus_2.2.0_iphoneos-arm.deb
+Size: 4414
+MD5sum: 7d53a476b7f6c0970217b7d86208293a
+SHA1: 6e2bc6eea7bdb8805f4a8a12097373cc94aad1a0
+SHA256: acc123f499a61fdd9a59aa42753cd469507a0ffbce2c42b2005985ad2fc22722
+Section: Tweaks
+Description: Enhance your SoundCloud experience!
+Author: Rov3r
+Depiction: https://rov3r.github.io/depiction/com.rov3r.scmusicplus/tweak_depiction.html
+Name: SCMusicPlus
+
+Package: com.rov3r.scmusicplus
+Version: 2.2.1
+Architecture: iphoneos-arm
+Maintainer: Rov3r <rov3r@icloud.com>
+Installed-Size: 216
+Depends: mobilesubstrate
+Filename: ./deb/com.rov3r.scmusicplus_2.2.1_iphoneos-arm.deb
+Size: 4414
+MD5sum: b0665a2cbcefdd6ad83a6ef87db9b4c5
+SHA1: a68022f0612bcf3ae3706c0bdbc513469b3f363f
+SHA256: 8a0b62115059abf53115d0e0ea6b0230a5b4b7c829407871f85839f7a8405667
+Section: Tweaks
+Description: Enhance your SoundCloud experience
+Author: Rov3r
+Depiction: https://rov3r.github.io/depiction/com.rov3r.scmusicplus/tweak_depiction.html
+Name: SCMusicPlus
+
+Package: com.rov3r.scmusicplus
 Version: 24.9.1
 Architecture: iphoneos-arm
 Maintainer: Rov3r <rov3rrepo@pm.me>
@@ -9,6 +123,23 @@ Size: 4506
 MD5sum: 1c312b88c28e8df23148edb73d7b0889
 SHA1: 5ca02da806aa1087129875d783be6e8c5077c515
 SHA256: 9c7fe765f5fb7adeee74656c30ffd95ab368ab72e69cb5d3021c28af40dbe08e
+Section: Tweaks
+Description: Enhance your SoundCloud experience
+Author: Rov3r
+Depiction: https://rov3r.github.io/depiction/com.rov3r.scmusicplus/tweak_depiction.html
+Name: SCMusicPlus
+
+Package: com.rov3r.scmusicplus
+Version: 24.9.1
+Architecture: iphoneos-arm64
+Maintainer: Rov3r <rov3rrepo@pm.me>
+Installed-Size: 280
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./deb/com.rov3r.scmusicplus_24.9.1_iphoneos-arm64.deb
+Size: 4956
+MD5sum: 418e2d0fda92cde93ab416baa9ee653b
+SHA1: 4915b789aa8fe600b8ccf47d6f34cb6a1e61785f
+SHA256: 6a6dc8750abb0d02fb54292b170a3513b511b58627f33551b9a76619ba0e3b9d
 Section: Tweaks
 Description: Enhance your SoundCloud experience
 Author: Rov3r

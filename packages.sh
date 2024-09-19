@@ -1,4 +1,3 @@
-#!/bin/bash
-rm Packages Packages.bz2
-dpkg-scanpackages ./deb / > Packages
-bzip2 -fks Packages
+dpkg-scanpackages -m ./deb > Packages
+bzip2 -c Packages > Packages.bz2
+gzip -c Packages > Packages.gz
