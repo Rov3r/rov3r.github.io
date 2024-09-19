@@ -15,37 +15,3 @@ Author: Rov3r
 Depiction: https://rov3r.github.io/depiction/com.rov3r.scmusicplus/tweak_depiction.html
 Name: SCMusicPlus
 
-Package: com.rov3r.ytmusicplus
-Version: 1.3.2-1
-Architecture: iphoneos-arm
-Maintainer: Rov3r <rov3r@icloud.com>
-Installed-Size: 216
-Depends: mobilesubstrate
-Filename: ./deb/com.rov3r.ytmusicplus_1.3.2-1_iphoneos-arm.deb
-Size: 7338
-MD5sum: acb4d237c301b68ac613dead0fe91188
-SHA1: a8364b9c8f164294a403c229ae8917a22446ee95
-SHA256: d66f473f5f9ebf8e8e63678e1c6bd61094ec5439e6a9014ca1625b2707e8cb0b
-Section: Tweaks
-Description: Enhance your YouTube Music experience
-Author: Rov3r
-Depiction: https://rov3r.github.io/depiction/com.rov3r.ytmusicplus/tweak_depiction.html
-Name: YTMusicPlus
-
-Package: com.rov3r.ytwatchplus
-Version: 1.4-2
-Architecture: iphoneos-arm
-Maintainer: Rov3r <rov3r@icloud.com>
-Installed-Size: 104
-Depends: mobilesubstrate
-Filename: ./deb/com.rov3r.ytwatchplus_1.4-2_iphoneos-arm.deb
-Size: 2054
-MD5sum: bbee1ae33e05ab1a56e7d8dbe7c5a53b
-SHA1: e479d19f702158ee8080ac1a8fd6f4c33dff3757
-SHA256: a15e0646e72046b5c61e1639b22e196bda44a492bb486f8ee2763f43db2f892e
-Section: Tweaks
-Description: Enhance your YouTube experience
-Author: Rov3r
-Depiction: https://rov3r.github.io/depiction/com.rov3r.ytwatchplus/tweak_depiction.html
-Name: YTWatchPlus
-
