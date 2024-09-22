@@ -123,6 +123,32 @@
                "views":[
                   {
                      "class":"DepictionLabelView",
+                     "text":"24.9.1-1",
+                     "fontWeight":"bold",
+                     "fontSize":16
+                  },
+                  {
+                     "class":"DepictionLabelView",
+                     "text":"September 21, 2024",
+                     "fontWeight":"semibold",
+                     "fontSize":16,
+                     "textColor":"#696969",
+                     "alignment":2
+                  }
+               ]
+            },
+            {
+               "class":"DepictionMarkdownView",
+               "markdown":"Added better depictions"
+            },
+            {
+               "class":"DepictionSeparatorView"
+            },
+            {
+               "class":"DepictionLayerView",
+               "views":[
+                  {
+                     "class":"DepictionLabelView",
                      "text":"24.9.1",
                      "fontWeight":"bold",
                      "fontSize":16
