@@ -154,10 +154,10 @@ Maintainer: Rov3r <rov3rrepo@pm.me>
 Installed-Size: 56
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./deb/com.rov3r.scmusicplus_24.9.1-1_iphoneos-arm64.deb
-Size: 2694
-MD5sum: 552858070401b03bdae4e0ba4e9cd8fd
-SHA1: f43704b90f0ff3debdd9b32cdec5e8d1532513ec
-SHA256: 6bdd9cd9645963fea2586543ba20d91f1c57dde396aa67c05824b71de1d2f773
+Size: 2688
+MD5sum: 7f9078f36f0aa2310fd466d43b77008d
+SHA1: af67ff3a388967daeeab51bb4ebb0a66823c5fa5
+SHA256: 49922c275437ac88077c88fdf3424bbe53c8a66bb257c7629354de0d481074d0
 Section: Tweaks
 Description: Enhance your SoundCloud experience
 Author: Rov3r
