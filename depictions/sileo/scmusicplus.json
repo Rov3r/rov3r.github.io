@@ -20,7 +20,11 @@
                "screenshots":[
                   {
                      "accessibilityText":"Screenshot",
-                     "url":"https://rov3r.github.io/depictions/assets/images/scmusicplus-screenshot.png"
+                     "url":"https://rov3r.github.io/depictions/assets/images/scmusicplus-screenshot-before.png"
+                  },
+                  {
+                     "accessibilityText":"Screenshot",
+                     "url":"https://rov3r.github.io/depictions/assets/images/scmusicplus-screenshot-after.png"
                   }
                ]
             },
@@ -51,7 +55,7 @@
             {
                "class":"DepictionTableTextView",
                "title":"Size",
-               "text":"5 KB"
+               "text":"3 KB"
             },
             {
                "class":"DepictionTableTextView",
