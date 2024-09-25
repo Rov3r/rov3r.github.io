@@ -165,3 +165,41 @@ Depiction: https://rov3r.github.io/depictions/scmusicplus.html
 Name: SCMusicPlus
 Sileodepiction: https://rov3r.github.io/depictions/sileo/scmusicplus.json
 
+Package: com.rov3r.scmusicplus
+Version: 24.9.1-3
+Architecture: iphoneos-arm64
+Maintainer: Rov3r <rov3rrepo@pm.me>
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./deb/com.rov3r.scmusicplus_24.9.1-3_iphoneos-arm64.deb
+Size: 4034
+MD5sum: bbba9808e6dd351e0ecd531657105966
+SHA1: 9b62a07eb58b0caf3c577760d825ca5123178baf
+SHA256: 45787f6ecf0c090a687f6b8fe012d7f842bcd07d764aedb4bedd5ef69fa30aee
+Section: Tweaks
+Description: Enhance your SoundCloud experience
+Author: Rov3r
+Depiction: https://rov3r.github.io/depictions/scmusicplus.html
+Icon: https://rov3r.github.io/depictions/assets/images/scmusicplus-icon.png
+Name: SCMusicPlus
+Sileodepiction: https://rov3r.github.io/depictions/sileo/scmusicplus.json
+
+Package: com.rov3r.scmusicplus
+Version: 24.9.1-3
+Architecture: iphoneos-arm
+Maintainer: Rov3r <rov3rrepo@pm.me>
+Installed-Size: 280
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./deb/com.rov3r.scmusicplus_24.9.1-3_iphoneos-arm.deb
+Size: 6270
+MD5sum: e3c642c8f6d44995d5f5411117c253da
+SHA1: 02943af7bb41dbad8bf61f2c1f0adb3221e5d444
+SHA256: 7b17ed0f4a522a32fa9444dea67fd616a621b06723d7d7dd4cdc5351ab7ec937
+Section: Tweaks
+Description: Enhance your SoundCloud experience
+Author: Rov3r
+Depiction: https://rov3r.github.io/depictions/scmusicplus.html
+Icon: https://rov3r.github.io/depictions/assets/images/scmusicplus-icon.png
+Name: SCMusicPlus
+Sileodepiction: https://rov3r.github.io/depictions/sileo/scmusicplus.json
+
