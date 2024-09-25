@@ -50,7 +50,7 @@
             {
                "class":"DepictionTableTextView",
                "title":"Version",
-               "text":"24.9.1-1"
+               "text":"24.9.1-3"
             },
             {
                "class":"DepictionTableTextView",
@@ -60,12 +60,12 @@
             {
                "class":"DepictionTableTextView",
                "title":"Updated",
-               "text":"September 21, 2024"
+               "text":"September 25, 2024"
             },
             {
                "class":"DepictionTableTextView",
                "title":"iOS Versions",
-               "text":"7.0 +"
+               "text":"7.0+"
             },
             {
                "class":"DepictionHeaderView",
@@ -118,6 +118,32 @@
          "class":"DepictionStackView",
          "tabname":"Changelog",
          "views":[
+            {
+               "class":"DepictionLayerView",
+               "views":[
+                  {
+                     "class":"DepictionLabelView",
+                     "text":"24.9.1-3",
+                     "fontWeight":"bold",
+                     "fontSize":16
+                  },
+                  {
+                     "class":"DepictionLabelView",
+                     "text":"September 25, 2024",
+                     "fontWeight":"semibold",
+                     "fontSize":16,
+                     "textColor":"#696969",
+                     "alignment":2
+                  }
+               ]
+            },
+            {
+               "class":"DepictionMarkdownView",
+               "markdown":"Improved ad blocking"
+            },
+            {
+               "class":"DepictionSeparatorView"
+            },
             {
                "class":"DepictionLayerView",
                "views":[
