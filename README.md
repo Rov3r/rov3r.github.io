@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://rov3r.github.io/images/rov3r_logo_rounded.png" width="150" title="SCMusicPlus">
+</p>
+
 # Rov3r's Repo
 Making packages for this awesome community. Doing my part to make sure jailbreaking never dies.
 
